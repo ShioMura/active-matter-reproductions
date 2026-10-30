@@ -1,0 +1,23 @@
+[
+  {
+    "name": "expTM_published_AIP.pdf",
+    "url": "https://www.nature.com/articles/s41467-026-77612-y_reference.pdf",
+    "bytes": 1656668,
+    "sha256": "1c0b2b9dc6e8ac39eb41e50d871992f6fad142532f4b566f6e8525f9708277f8",
+    "status": "downloaded"
+  },
+  {
+    "name": "expTM_arxiv_v1.pdf",
+    "url": "https://arxiv.org/pdf/2503.15080v1",
+    "bytes": 6942577,
+    "sha256": "6845aa9d60b79a9b08c5d132ae70326f33a800c67da197116a1ad503ad380840",
+    "status": "downloaded"
+  },
+  {
+    "name": "expTM_arxiv_v1_supplement.pdf",
+    "url": "https://arxiv.org/src/2503.15080v1/anc/supplement.pdf",
+    "bytes": 2411272,
+    "sha256": "ff48c33f19d9230ec1133015460f53e7b55e53b0f45f5221a83f70e4c14d1c45",
+    "status": "downloaded"
+  }
+]

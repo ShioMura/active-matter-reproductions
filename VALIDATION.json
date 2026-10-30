@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-30",
+  "execution_platform": "Linux x86_64, Python 3.12.14, CPU torch 2.5.1+cpu, numpy 1.26.4",
+  "ising_smoke": "PASS: simulation shape/spins, loader, one short training epoch, finite losses, checkpoint write, two generated samples with batch size 1",
+  "notebook": "nbformat and all code cell syntax pass; no full 20-epoch rerun during packaging",
+  "exptm_replay": "PASS: pinned input hashes, exact author checkpoint load, output shape (1,3,20,20), all finite, fixed control channels T=5 P=0, plot save",
+  "exptm_density": 0.4825,
+  "exptm_max_absolute_coordinate_difference_vs_user_sample": 9.918213e-05,
+  "bitwise_match": false,
+  "mac_dependencies": "Dry-run binary-wheel resolution successful for Python 3.11 on aarch64-apple-darwin and x86_64-apple-darwin",
+  "mac_execution": "Not tested on physical Mac hardware",
+  "original_source_integrity": "All included author source files byte-identical to supplied archives",
+  "research_scope": "Execution portability only; no new physical validation, full training, or new scientific experiments."
+}

@@ -1,0 +1,242 @@
+{
+  "limits": {
+    "active_wall_seconds": 1800,
+    "CPU_seconds": 7200,
+    "GPU_seconds": 1200
+  },
+  "GPU_available": false,
+  "GPU_seconds": 0,
+  "inspection_allowance_not_measured": {
+    "wall_seconds": 15,
+    "CPU_seconds": 15
+  },
+  "stages": [
+    {
+      "label": "create_environment",
+      "command": [
+        "python3",
+        "-m",
+        "venv",
+        "--system-site-packages",
+        "research/exptm_author_code_reproduction_v1/environment/venv"
+      ],
+      "UTC": "2026-10-13T14:55:15.911061+00:00",
+      "wall_seconds": 2.5049689340012264,
+      "CPU_seconds": 2.2390824990000002,
+      "max_child_RSS_KiB": 66016,
+      "returncode": 0,
+      "budget_terminated": false
+    },
+    {
+      "label": "fetch_inputs",
+      "command": [
+        "python3",
+        "research/exptm_author_code_reproduction_v1/download_inputs.py"
+      ],
+      "UTC": "2026-10-13T14:55:45.658465+00:00",
+      "wall_seconds": 29.52304196499972,
+      "CPU_seconds": 0.499198619,
+      "max_child_RSS_KiB": 78248,
+      "returncode": 0,
+      "budget_terminated": false
+    },
+    {
+      "label": "install_torch",
+      "command": [
+        "research/exptm_author_code_reproduction_v1/environment/venv/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "torch==2.5.1+cpu",
+        "--index-url",
+        "https://download.pytorch.org/whl/cpu"
+      ],
+      "UTC": "2026-10-13T14:56:00.475814+00:00",
+      "wall_seconds": 44.52810946700083,
+      "CPU_seconds": 16.363537827,
+      "max_child_RSS_KiB": 213640,
+      "returncode": 0,
+      "budget_terminated": false
+    },
+    {
+      "label": "inspect_arrays",
+      "command": [
+        "python3",
+        "research/exptm_author_code_reproduction_v1/inspect_arrays.py"
+      ],
+      "UTC": "2026-10-13T14:57:29.950443+00:00",
+      "wall_seconds": 0.507414517000143,
+      "CPU_seconds": 0.26967599500000006,
+      "max_child_RSS_KiB": 53740,
+      "returncode": 0,
+      "budget_terminated": false
+    },
+    {
+      "label": "install_small_deps",
+      "command": [
+        "research/exptm_author_code_reproduction_v1/environment/venv/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "einops==0.8.1",
+        "tqdm==4.67.1"
+      ],
+      "UTC": "2026-10-13T14:58:08.677073+00:00",
+      "wall_seconds": 21.018967894000525,
+      "CPU_seconds": 0.747247311,
+      "max_child_RSS_KiB": 45156,
+      "returncode": 0,
+      "budget_terminated": false
+    },
+    {
+      "label": "inspect_checkpoint",
+      "command": [
+        "research/exptm_author_code_reproduction_v1/environment/venv/bin/python",
+        "research/exptm_author_code_reproduction_v1/inspect_checkpoint.py"
+      ],
+      "UTC": "2026-10-13T14:59:04.484695+00:00",
+      "wall_seconds": 2.5032430499995826,
+      "CPU_seconds": 2.485818155,
+      "max_child_RSS_KiB": 318056,
+      "returncode": 1,
+      "budget_terminated": false
+    },
+    {
+      "label": "fetch_compatible_checkpoint",
+      "command": [
+        "python3",
+        "research/exptm_author_code_reproduction_v1/download_compatible_checkpoint.py"
+      ],
+      "UTC": "2026-10-13T15:00:32.477845+00:00",
+      "wall_seconds": 10.50967683700037,
+      "CPU_seconds": 0.30361756400000006,
+      "max_child_RSS_KiB": 135700,
+      "returncode": 0,
+      "budget_terminated": false
+    },
+    {
+      "label": "inspect_compatible_checkpoint",
+      "command": [
+        "research/exptm_author_code_reproduction_v1/environment/venv/bin/python",
+        "research/exptm_author_code_reproduction_v1/inspect_compatible_checkpoint.py"
+      ],
+      "UTC": "2026-10-13T15:00:35.531295+00:00",
+      "wall_seconds": 3.00793246199828,
+      "CPU_seconds": 2.995098608,
+      "max_child_RSS_KiB": 363568,
+      "returncode": 0,
+      "budget_terminated": false
+    },
+    {
+      "label": "smoke_checkpoint",
+      "command": [
+        "research/exptm_author_code_reproduction_v1/environment/venv/bin/python",
+        "research/exptm_author_code_reproduction_v1/run_checkpoint.py",
+        "smoke"
+      ],
+      "UTC": "2026-10-13T15:03:57.451716+00:00",
+      "wall_seconds": 11.508280060999823,
+      "CPU_seconds": 19.927807248,
+      "max_child_RSS_KiB": 620360,
+      "returncode": 0,
+      "budget_terminated": false
+    },
+    {
+      "label": "quantitative_checkpoint",
+      "command": [
+        "research/exptm_author_code_reproduction_v1/environment/venv/bin/python",
+        "research/exptm_author_code_reproduction_v1/run_checkpoint.py",
+        "quantitative"
+      ],
+      "UTC": "2026-10-13T15:12:39.917674+00:00",
+      "wall_seconds": 439.31989176000025,
+      "CPU_seconds": 874.973192322,
+      "max_child_RSS_KiB": 620412,
+      "returncode": 0,
+      "budget_terminated": false
+    },
+    {
+      "label": "analyze_registered_output",
+      "command": [
+        "python3",
+        "research/exptm_author_code_reproduction_v1/analyze_output.py"
+      ],
+      "UTC": "2026-10-13T15:12:57.290261+00:00",
+      "wall_seconds": 1.003616107000198,
+      "CPU_seconds": 0.7970153470000001,
+      "max_child_RSS_KiB": 70968,
+      "returncode": 0,
+      "budget_terminated": false
+    },
+    {
+      "label": "fetch_primary_papers",
+      "command": [
+        "python3",
+        "research/exptm_author_code_reproduction_v1/fetch_papers.py"
+      ],
+      "UTC": "2026-10-13T15:13:37.349384+00:00",
+      "wall_seconds": 40.030870585998855,
+      "CPU_seconds": 0.12641661400000007,
+      "max_child_RSS_KiB": 70968,
+      "returncode": 0,
+      "budget_terminated": false
+    },
+    {
+      "label": "record_environment_and_extract_papers",
+      "command": [
+        "research/exptm_author_code_reproduction_v1/environment/venv/bin/python",
+        "research/exptm_author_code_reproduction_v1/final_environment_and_text.py"
+      ],
+      "UTC": "2026-10-13T15:14:18.495895+00:00",
+      "wall_seconds": 4.004824345000088,
+      "CPU_seconds": 3.9025544479999996,
+      "max_child_RSS_KiB": 225184,
+      "returncode": 0,
+      "budget_terminated": false
+    },
+    {
+      "label": "fetch_published_supplement",
+      "command": [
+        "python3",
+        "research/exptm_author_code_reproduction_v1/fetch_published_supplement.py"
+      ],
+      "UTC": "2026-10-13T15:15:36.328188+00:00",
+      "wall_seconds": 22.518119701000614,
+      "CPU_seconds": 0.16602764299999997,
+      "max_child_RSS_KiB": 18432,
+      "returncode": 0,
+      "budget_terminated": false
+    },
+    {
+      "label": "readonly_verification",
+      "command": [
+        "research/exptm_author_code_reproduction_v1/environment/venv/bin/python",
+        "research/exptm_author_code_reproduction_v1/verify_release.py"
+      ],
+      "UTC": "2026-10-13T15:20:06.606303+00:00",
+      "wall_seconds": 0.5017903759999172,
+      "CPU_seconds": 0.49108647399999994,
+      "max_child_RSS_KiB": 143644,
+      "returncode": 0,
+      "budget_terminated": false
+    },
+    {
+      "label": "final_readonly_verification",
+      "command": [
+        "research/exptm_author_code_reproduction_v1/environment/venv/bin/python",
+        "research/exptm_author_code_reproduction_v1/verify_release.py"
+      ],
+      "UTC": "2026-10-13T15:22:25.523989+00:00",
+      "wall_seconds": 1.0025505789999443,
+      "CPU_seconds": 0.6613175450000001,
+      "max_child_RSS_KiB": 173900,
+      "returncode": 0,
+      "budget_terminated": false
+    }
+  ],
+  "measured_wall_seconds": 633.9932986410004,
+  "measured_CPU_seconds": 926.948694219,
+  "charged_wall_seconds": 648.9932986410004,
+  "charged_CPU_seconds": 941.948694219,
+  "accounting_correction": "Parallel setup/download final-write race corrected from exact printed metering receipt; no cost removed. Subsequent computational stages serialized."
+}

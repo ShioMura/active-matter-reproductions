@@ -1,0 +1,14 @@
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.3
+scikit-learn==1.5.2
+matplotlib==3.9.2
+PyYAML==6.0.2
+einops==0.8.1
+tqdm==4.67.1
+# Intel macOS wheels end at torch 2.2.x.
+torch==2.2.2; sys_platform == "darwin" and platform_machine == "x86_64"
+torch==2.5.1; sys_platform != "darwin" or platform_machine != "x86_64"
+slurm-workflow==0.22
+ipykernel==6.29.5
+jupyterlab==4.3.8

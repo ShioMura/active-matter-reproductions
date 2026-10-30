@@ -1,0 +1,43 @@
+{
+  "prepared": "2026-10-30",
+  "ising_source": "User-supplied thermomaps-ising-main.zip; source copied unchanged",
+  "exptm_source": "https://github.com/tiwarylab/ExpTM",
+  "exptm_commit": "28f1252eed7cbaaf67d901b337ffee1885552fbe",
+  "uploads": [
+    {
+      "name": "EXPTM_AUTHOR_CODE_REPRODUCTION_v1(1).zip",
+      "bytes": 85368633,
+      "sha256": "990f082318733b45690c8c9053cc1231a76487ebe9f70a3d3d88123937206a63"
+    },
+    {
+      "name": "my_new_sample.npy",
+      "bytes": 4928,
+      "sha256": "b7fea383e4b76052cf3bd2be05c9f20d8c28447b4541d38684ee0a04cf2a9419"
+    },
+    {
+      "name": "my_new_sample.png",
+      "bytes": 63885,
+      "sha256": "f3fc129e1483e7933d882f843f0d7cacf868df95542b2e07c76e7da2df8f6bfe"
+    },
+    {
+      "name": "plot_sample.py",
+      "bytes": 855,
+      "sha256": "5955cd0a2c07405ef3d8f74e0787f7879815ab91a598821faa19726389ae55d8"
+    },
+    {
+      "name": "rerun_one_sample.py",
+      "bytes": 1487,
+      "sha256": "a70c9910145d1f78ddeceab8ae055f9d5fb400ec5382fc44857e959259049621"
+    },
+    {
+      "name": "thermomaps-ising-main.zip",
+      "bytes": 371181,
+      "sha256": "e13787b799a9f1f6abb21968c795571ec4afc8ebe4f682633a32a77fcf0d1ebd"
+    },
+    {
+      "name": "thermomaps_ising(1).ipynb",
+      "bytes": 634082,
+      "sha256": "a66e0cbcf728d4c76d8c463432a187a6da540a1ef755689a1f76f0f7c7a197e6"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "UTC": "2026-10-13T15:05:20.553072+00:00",
+  "sample_target_frozen": 256,
+  "smoke_measured_sampling_wall_seconds": 8.270306357000663,
+  "linear_serial_estimate_wall_seconds": 1058.599213696085,
+  "not_a_guarantee": true,
+  "remaining_wall_seconds": 1659.3883648129995,
+  "feasible_under_linear_estimate": true,
+  "batch_size_unchanged": 16,
+  "method_selection_on_prediction": false,
+  "control_metadata_blocker": "training temperature/scaler/schedule absent; published configuration remains unverified"
+}

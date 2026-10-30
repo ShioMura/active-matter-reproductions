@@ -1,0 +1,5 @@
+keys ['model', 'optim', 'epoch']
+epoch 49
+model type <class 'collections.OrderedDict'>
+optim keys ['state', 'param_groups']
+optim states 316

@@ -1,0 +1,17 @@
+{"stage": "quantitative", "completed": 16, "batch_wall": 28.272897607999766}
+{"stage": "quantitative", "completed": 32, "batch_wall": 29.22927094500119}
+{"stage": "quantitative", "completed": 48, "batch_wall": 28.12125529200057}
+{"stage": "quantitative", "completed": 64, "batch_wall": 28.550897116998385}
+{"stage": "quantitative", "completed": 80, "batch_wall": 26.85950993000006}
+{"stage": "quantitative", "completed": 96, "batch_wall": 29.085296172999733}
+{"stage": "quantitative", "completed": 112, "batch_wall": 30.719232785000713}
+{"stage": "quantitative", "completed": 128, "batch_wall": 27.43608325599962}
+{"stage": "quantitative", "completed": 144, "batch_wall": 26.38494038099998}
+{"stage": "quantitative", "completed": 160, "batch_wall": 27.203112156001225}
+{"stage": "quantitative", "completed": 176, "batch_wall": 25.63633363200097}
+{"stage": "quantitative", "completed": 192, "batch_wall": 24.39475229299933}
+{"stage": "quantitative", "completed": 208, "batch_wall": 25.372379541000555}
+{"stage": "quantitative", "completed": 224, "batch_wall": 25.68379233399901}
+{"stage": "quantitative", "completed": 240, "batch_wall": 27.813401441999304}
+{"stage": "quantitative", "completed": 256, "batch_wall": 25.304213799001445}
+{"loader_shape": [10000, 3, 20, 20], "prior_shape": [3, 20, 20], "temperature_channel": 5, "normalized_mu_values": [-1, 1], "backbone_target_shape": 32, "checkpoint_epoch": 1, "parameters": 3808739, "optimizer_step_values": [64.0], "torch": "2.5.1+cpu", "cuda": false, "platform": "Linux-6.18.44-x86_64-with-glibc2.39", "normal_transform_unused_for_author_decode": true, "stage": "quantitative", "seed": 2026101303, "samples": 256, "batch_size": 16, "sampling_wall_seconds": 436.0686283489995, "finite": true, "shape": [256, 3, 20, 20], "density_mean": 0.49472656249999997, "density_sd": 0.015776423135831018, "descriptive_conditional_SEM": 0.0009860264459894386, "fixed_physical_reference": 0.5, "absolute_difference": 0.005273437500000033, "Hoeffding95_halfwidth": 0.08488134473378872, "density_min": 0.4525, "density_max": 0.5375, "threshold_decode_zero_inclusive": true, "independent_training": false, "published_configuration_verified": false, "Hoeffding95_interval": [0.40984521776621125, 0.5796079072337887], "exact_reference_inside_conditional_bound": true}

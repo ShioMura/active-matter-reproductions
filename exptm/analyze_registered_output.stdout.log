@@ -1,0 +1,1 @@
+{"density_mean": 0.49472656249999997, "density_sd": 0.015776423135831018, "absolute_difference": 0.005273437500000033, "Hoeffding95_interval": [0.40984521776621125, 0.5796079072337887], "exact_reference_inside_conditional_bound": true, "unique_thresholded_configurations": 256}

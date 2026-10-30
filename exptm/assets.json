@@ -1,0 +1,20 @@
+[
+  {
+    "path": "GC_Lattice_gas/data/HighMuT7.npy",
+    "bytes": 32000128,
+    "sha256": "f4ad83d9bf54fae9753bd3daba7aa861c1fdd25ad927e6a171cf429a1801660b",
+    "source_url": "https://raw.githubusercontent.com/tiwarylab/ExpTM/28f1252eed7cbaaf67d901b337ffee1885552fbe/GC_Lattice_gas/data/HighMuT7.npy"
+  },
+  {
+    "path": "GC_Lattice_gas/data/LowMuT7.npy",
+    "bytes": 32000128,
+    "sha256": "05802d6a1ea829c19fae8a913501695a981f86a9fe6b3cf47712bbe52e88f4cd",
+    "source_url": "https://raw.githubusercontent.com/tiwarylab/ExpTM/28f1252eed7cbaaf67d901b337ffee1885552fbe/GC_Lattice_gas/data/LowMuT7.npy"
+  },
+  {
+    "path": "GC_Lattice_gas/expTM_data_genenration/thermomaps-root/models/model_1.pt",
+    "bytes": 61391789,
+    "sha256": "72125a26b5d136b8eeda782ff01fbecb99963b3ad58b8fce3f4494185f5419fc",
+    "source_url": "https://raw.githubusercontent.com/tiwarylab/ExpTM/28f1252eed7cbaaf67d901b337ffee1885552fbe/GC_Lattice_gas/expTM_data_genenration/thermomaps-root/models/model_1.pt"
+  }
+]

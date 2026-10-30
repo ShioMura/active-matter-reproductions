@@ -1,0 +1,10 @@
+**/.venv/
+**/__pycache__/
+**/*.pyc
+**/.ipynb_checkpoints/
+**/*.egg-info/
+**/runs/
+.DS_Store
+exptm/author_source/GC_Lattice_gas/data/HighMuT7.npy
+exptm/author_source/GC_Lattice_gas/data/LowMuT7.npy
+exptm/author_source/**/models/*.pt

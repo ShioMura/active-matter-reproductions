@@ -1,0 +1,127 @@
+{
+  "task": "EXPTM-AUTHOR-CODE-REPRODUCTION-v1",
+  "status": "COMPLETED_SCOPED_RELEASE",
+  "strongest_supported_outcome": "AUTHOR_CHECKPOINT_EXECUTION_VERIFIED_WITH_LIMITED_QUANTITATIVE_DIAGNOSTIC",
+  "commit": "28f1252eed7cbaaf67d901b337ffee1885552fbe",
+  "example": "GC_Lattice_gas only",
+  "checkpoint": {
+    "path": "GC_Lattice_gas/expTM_data_genenration/thermomaps-root/models/model_1.pt",
+    "bytes": 61391789,
+    "git_blob_sha": "76078052fddd58ad7fc7b1c81616a9b2b2b14b55",
+    "sha256": "72125a26b5d136b8eeda782ff01fbecb99963b3ad58b8fce3f4494185f5419fc",
+    "source_url": "https://raw.githubusercontent.com/tiwarylab/ExpTM/28f1252eed7cbaaf67d901b337ffee1885552fbe/GC_Lattice_gas/expTM_data_genenration/thermomaps-root/models/model_1.pt",
+    "download_wall_seconds": 10.207212070999958
+  },
+  "configuration": "FROZEN_TARGET.json",
+  "execution_route": "unmodified author core / literal GC_ising_code input recipe / CPU checkpoint loading; no retraining",
+  "outcomes": {
+    "environment_installed": true,
+    "selected_author_core_executes": true,
+    "author_checkpoint_evaluated": true,
+    "checkpoint_based_not_independent_training": true,
+    "quantitative_published_result_reproduced": "UNRESOLVED",
+    "independent_training_reproduced": false,
+    "parameter_generalization_demonstrated": false,
+    "computational_advantage_demonstrated": false,
+    "ABP_mapping_demonstrated": false
+  },
+  "quantitative_comparison": {
+    "loader_shape": [
+      10000,
+      3,
+      20,
+      20
+    ],
+    "prior_shape": [
+      3,
+      20,
+      20
+    ],
+    "temperature_channel": 5,
+    "normalized_mu_values": [
+      -1,
+      1
+    ],
+    "backbone_target_shape": 32,
+    "checkpoint_epoch": 1,
+    "parameters": 3808739,
+    "optimizer_step_values": [
+      64.0
+    ],
+    "torch": "2.5.1+cpu",
+    "cuda": false,
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "normal_transform_unused_for_author_decode": true,
+    "stage": "quantitative",
+    "seed": 2026101303,
+    "samples": 256,
+    "batch_size": 16,
+    "sampling_wall_seconds": 436.0686283489995,
+    "finite": true,
+    "shape": [
+      256,
+      3,
+      20,
+      20
+    ],
+    "density_mean": 0.49472656249999997,
+    "density_sd": 0.015776423135831018,
+    "descriptive_conditional_SEM": 0.0009860264459894386,
+    "fixed_physical_reference": 0.5,
+    "absolute_difference": 0.005273437500000033,
+    "Hoeffding95_halfwidth": 0.08488134473378872,
+    "density_min": 0.4525,
+    "density_max": 0.5375,
+    "threshold_decode_zero_inclusive": true,
+    "independent_training": false,
+    "published_configuration_verified": false,
+    "Hoeffding95_interval": [
+      0.40984521776621125,
+      0.5796079072337887
+    ],
+    "exact_reference_inside_conditional_bound": true,
+    "unique_raw_configuration_hashes": 256,
+    "unique_thresholded_configurations": 256,
+    "plots_show_all_densities_and_first_six_fixed_indices": true
+  },
+  "registered_quantitative_target": "single intended Fig2(b) symmetry-center density, native controlsT5/P0; full physical parameter/checkpoint bindings remain unverified",
+  "reference": "analytic0.5 under intended finite periodic grand-canonical particle-hole symmetry; no digitized or original MC cell treated as reference",
+  "resource_ledger": "RESOURCE_LEDGER.json",
+  "measured_cost_at_report_creation": {
+    "wall_seconds": 632.4889576860005,
+    "CPU_seconds": 925.7962902,
+    "GPU_seconds": 0
+  },
+  "new_training_updates": 0,
+  "stochastic_physical_trajectories": 0,
+  "new_ABP_steps": 0,
+  "attempts": [
+    {
+      "stage": "inspect_checkpoint",
+      "outcome": "FAILED_STRICT_LOAD model49, fourchannels/dim16 versus fixed3channel/dim32; preserved logs"
+    },
+    {
+      "stage": "inspect_compatible_checkpoint",
+      "outcome": "strict model1 loadPASS; selection made solely from compatibility before generation"
+    },
+    {
+      "stage": "smoke_checkpoint",
+      "outcome": "2 finite samples,100 reverse steps"
+    },
+    {
+      "stage": "quantitative_checkpoint",
+      "outcome": "256 finite samples,16 fixed batches; all retained"
+    }
+  ],
+  "compatibility": "COMPATIBILITY_RECORD.md; no author file patched",
+  "one_next_step": "Recover a figure-bound author run bundle: three-channel checkpoint from the published10epoch/T7 run, exact T/mu normalization, training subset/seeds and numeric MC/generated Fig2 density arrays. No further generation/retraining authorized automatically.",
+  "successor_executed": false,
+  "historical_STOPS_unchanged": [
+    "CP4 STOP",
+    "Track B STOP",
+    "Research C NO-GO",
+    "Research D allocation-only STOP",
+    "G1 reference limitations and all earlier failed mechanisms"
+  ],
+  "protected_Pe_access": false
+}

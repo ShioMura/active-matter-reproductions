@@ -1,0 +1,156 @@
+{
+  "repo": "https://github.com/tiwarylab/ExpTM",
+  "commit": "28f1252eed7cbaaf67d901b337ffee1885552fbe",
+  "commit_date": "2026-08-12T21:07:32Z",
+  "read_UTC": "2026-10-13T15:19:22.272221+00:00",
+  "source_selection": "unmodified selected GC_Lattice_gas author code; no older thermomaps-ising execution",
+  "GitHub_license_metadata": null,
+  "LICENSE_file_in_recursive_tree": false,
+  "setup_classifier": "License :: OSI Approved :: MIT License",
+  "licensing_interpretation": "MIT classifier found, but no full repository license text recovered; do not attribute an unverified repository license. Private research snapshot retains author provenance.",
+  "article": "https://doi.org/10.1038/s41467-026-77612-y",
+  "article_state": "Article in Press, published14September2026; downloaded identified primary PDF and14-page supplement",
+  "linked_arxiv": "https://arxiv.org/abs/2503.15080",
+  "colab_link": "https://colab.research.google.com/drive/1Q5-LyumxZfZc6aHt71ZKOsGWfjrGEEzV?usp=sharing",
+  "colab_access": "link verified in README; contents unavailable through public lookup in this task; no login or remote Colab execution",
+  "source_text_hashes": [
+    {
+      "path": "GC_Lattice_gas/expTM_data_genenration/GC_ising_code.ipynb",
+      "git_blob_sha": "e962de54499e28853e73048dd743b6b1578ee851",
+      "sha256": "11e5e7bd7c6ae3aa5b9f0e83667791949847e7da7fe5bc2580d586ffea5c172a",
+      "bytes": 143885
+    },
+    {
+      "path": "GC_Lattice_gas/expTM_data_genenration/GC_original.ipynb",
+      "git_blob_sha": "1e1b4b43221e691d4ccc09cca42e555becdf1885",
+      "sha256": "35c0a6dffd85c1dbdd63c09b8302a75a4b40a9ca788ae440cb9149391dc35d91",
+      "bytes": 22191
+    },
+    {
+      "path": "GC_Lattice_gas/expTM_data_genenration/GC_original.py",
+      "git_blob_sha": "6d1e639c907f3e8b56c4b1ce7a7ac5d9cc0d9aa3",
+      "sha256": "406a7b33fb83a4b1f67902f5074a07a808f563d931be8c35e030d79e5acbf5f2",
+      "bytes": 8586
+    },
+    {
+      "path": "GC_Lattice_gas/expTM_data_genenration/requirements.txt",
+      "git_blob_sha": "a0330af6558095ff09f5c02b8a0532d16b28c279",
+      "sha256": "e6f0490bacf7401eebb8b2e7a66319495b20a0650a51781e47b4d755a0ee9371",
+      "bytes": 72
+    },
+    {
+      "path": "GC_Lattice_gas/expTM_data_genenration/setup.py",
+      "git_blob_sha": "e15a93442b62e2b1a903f690fb1435d654864f7d",
+      "sha256": "f423dba455a3ad6cdfa6135302eb8a57f7f04e30da63b3c1ab144f0e74906a59",
+      "bytes": 719
+    },
+    {
+      "path": "GC_Lattice_gas/expTM_data_genenration/tm/__init__.py",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "GC_Lattice_gas/expTM_data_genenration/tm/architectures/__init__.py",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "GC_Lattice_gas/expTM_data_genenration/tm/architectures/unet_2d_mid_attn.py",
+      "git_blob_sha": "37deba099710683a2997edd5aa5558b1275f46ad",
+      "sha256": "87f662a0474f4beb53d125afc7222b11bb30c9f2840f3e273215f76b3bf8c63c",
+      "bytes": 12487
+    },
+    {
+      "path": "GC_Lattice_gas/expTM_data_genenration/tm/core/__init__.py",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "GC_Lattice_gas/expTM_data_genenration/tm/core/backbone.py",
+      "git_blob_sha": "31b7510b0b8efd98841bcdbeb9fb293f5c76e931",
+      "sha256": "e414f5a53c456c1ffb68d910cced0cd49627c2853fe7ff19d26ebd1e2eb040d2",
+      "bytes": 7574
+    },
+    {
+      "path": "GC_Lattice_gas/expTM_data_genenration/tm/core/diffusion_model.py",
+      "git_blob_sha": "109160dc9971e691a3ac8d6471b518c163d5218d",
+      "sha256": "849ecf96d9b2e476bffa65e31a56028db4ab82f2db45a89cfc4aa1c1135f6dce",
+      "bytes": 19035
+    },
+    {
+      "path": "GC_Lattice_gas/expTM_data_genenration/tm/core/diffusion_process.py",
+      "git_blob_sha": "d99df8e978a66e408ce315cb0f2cb76c8fd62304",
+      "sha256": "fb4b3c55444d736cb4db3917d663b5a5bd16c27a9a3eaba408abe1a656ae434c",
+      "bytes": 8409
+    },
+    {
+      "path": "GC_Lattice_gas/expTM_data_genenration/tm/core/loader.py",
+      "git_blob_sha": "2b6044a5c7233a2340437296b112aa83104153c6",
+      "sha256": "3ca9e881b03ddbaea1bc1f0c61cdb61e4fa5a92bb347da0f944d84960b3b2e7a",
+      "bytes": 12891
+    },
+    {
+      "path": "GC_Lattice_gas/expTM_data_genenration/tm/core/prior.py",
+      "git_blob_sha": "c4bdf5acfb705d328925c408426109ff0f7fa4d9",
+      "sha256": "674a7427efc278ae007cafda823dcb2ebab1fe2070455d33f5968bc54b680abb",
+      "bytes": 4717
+    },
+    {
+      "path": "GC_Lattice_gas/expTM_data_genenration/tm/core/utils.py",
+      "git_blob_sha": "3a861c174e7449d79da60c34c62b7d8914a0d60e",
+      "sha256": "d5e3f31598342c2aec6b673c786c996082602bd7ca8b645d8e47ac00163b6463",
+      "bytes": 2164
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha": "48cec322d55364c841c6aa669c6cad71aebc201e",
+      "sha256": "810537e0c3066b63faa74b1625fc7f178b9c8dd10c875582ecf94a52d66de792",
+      "bytes": 1989
+    }
+  ],
+  "input_byte_hashes": [
+    {
+      "path": "GC_Lattice_gas/data/GC_density_heatmap.npy",
+      "bytes": 328,
+      "git_blob_sha": "f6ed70c64d8625cb2ce328d9d070c15c8d1c1c28",
+      "sha256": "d51d77937de4b6dfc9b407abe3e5dc213b2bbbef423caa8efc82dca43c4f21e2",
+      "source_url": "https://raw.githubusercontent.com/tiwarylab/ExpTM/28f1252eed7cbaaf67d901b337ffee1885552fbe/GC_Lattice_gas/data/GC_density_heatmap.npy",
+      "download_wall_seconds": 7.704101209001237
+    },
+    {
+      "path": "GC_Lattice_gas/data/HighMuT7.npy",
+      "bytes": 32000128,
+      "git_blob_sha": "f714ad0c6aacf37738f5c9bd06916268f9d09e22",
+      "sha256": "f4ad83d9bf54fae9753bd3daba7aa861c1fdd25ad927e6a171cf429a1801660b",
+      "source_url": "https://raw.githubusercontent.com/tiwarylab/ExpTM/28f1252eed7cbaaf67d901b337ffee1885552fbe/GC_Lattice_gas/data/HighMuT7.npy",
+      "download_wall_seconds": 7.677454861999649
+    },
+    {
+      "path": "GC_Lattice_gas/data/LowMuT7.npy",
+      "bytes": 32000128,
+      "git_blob_sha": "ebc6756450e9cb09da151cf9c7f5fced1547e520",
+      "sha256": "05802d6a1ea829c19fae8a913501695a981f86a9fe6b3cf47712bbe52e88f4cd",
+      "source_url": "https://raw.githubusercontent.com/tiwarylab/ExpTM/28f1252eed7cbaaf67d901b337ffee1885552fbe/GC_Lattice_gas/data/LowMuT7.npy",
+      "download_wall_seconds": 6.8121958510000695
+    },
+    {
+      "path": "GC_Lattice_gas/expTM_data_genenration/thermomaps-root/models/model_49.pt",
+      "bytes": 15800027,
+      "git_blob_sha": "8548a14d5a19927382778e2f824d01a33b4c3df3",
+      "sha256": "43a7a182228037e56afd25ae41f31a806f5fa2d70454fc0695606495fa60486e",
+      "source_url": "https://raw.githubusercontent.com/tiwarylab/ExpTM/28f1252eed7cbaaf67d901b337ffee1885552fbe/GC_Lattice_gas/expTM_data_genenration/thermomaps-root/models/model_49.pt",
+      "download_wall_seconds": 7.150355474999742
+    },
+    {
+      "path": "GC_Lattice_gas/expTM_data_genenration/thermomaps-root/models/model_1.pt",
+      "bytes": 61391789,
+      "git_blob_sha": "76078052fddd58ad7fc7b1c81616a9b2b2b14b55",
+      "sha256": "72125a26b5d136b8eeda782ff01fbecb99963b3ad58b8fce3f4494185f5419fc",
+      "source_url": "https://raw.githubusercontent.com/tiwarylab/ExpTM/28f1252eed7cbaaf67d901b337ffee1885552fbe/GC_Lattice_gas/expTM_data_genenration/thermomaps-root/models/model_1.pt",
+      "download_wall_seconds": 10.207212070999958
+    }
+  ]
+}

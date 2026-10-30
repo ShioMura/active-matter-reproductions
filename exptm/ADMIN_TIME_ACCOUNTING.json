@@ -1,0 +1,9 @@
+{
+  "source_inspection_implementation_documentation_calendar_start_UTC": "2026-10-13T14:54:11.569045+00:00",
+  "end_UTC": "2026-10-13T15:22:24.184433+00:00",
+  "calendar_elapsed_seconds": 1692.6153876781464,
+  "includes_overlap_with_numerical_execution": true,
+  "not_additive_to_computational_wall": true,
+  "editor_model_active_CPU": "not measured",
+  "transfer_time": "metered stage wall included; source-tool lookup/response latency outside active numerical commands"
+}
