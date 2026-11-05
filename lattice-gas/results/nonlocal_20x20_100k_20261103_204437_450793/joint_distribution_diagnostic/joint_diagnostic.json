@@ -1,0 +1,74 @@
+{
+  "status": "EXPLORATORY_DIAGNOSTIC",
+  "windows": [
+    [
+      20001,
+      60000
+    ],
+    [
+      60001,
+      100000
+    ]
+  ],
+  "U_bin_width": 1.0,
+  "S_low_bin_width": 0.5,
+  "within_chain": [
+    {
+      "initial": "horizontal",
+      "seed": 848,
+      "window_tv": 0.14425000000000002
+    },
+    {
+      "initial": "horizontal",
+      "seed": 849,
+      "window_tv": 0.13874999999999998
+    },
+    {
+      "initial": "horizontal",
+      "seed": 850,
+      "window_tv": 0.1505
+    },
+    {
+      "initial": "random",
+      "seed": 842,
+      "window_tv": 0.131
+    },
+    {
+      "initial": "random",
+      "seed": 843,
+      "window_tv": 0.13574999999999998
+    },
+    {
+      "initial": "random",
+      "seed": 844,
+      "window_tv": 0.1365
+    },
+    {
+      "initial": "vertical",
+      "seed": 845,
+      "window_tv": 0.14425000000000002
+    },
+    {
+      "initial": "vertical",
+      "seed": 846,
+      "window_tv": 0.12625
+    },
+    {
+      "initial": "vertical",
+      "seed": 847,
+      "window_tv": 0.15025
+    }
+  ],
+  "between_chain_tv": {
+    "min": 0.08687500000000001,
+    "median": 0.099375,
+    "max": 0.11862500000000001
+  },
+  "limitations": [
+    "TV depends on binning and finite-sample fluctuations.",
+    "Recorded samples are autocorrelated.",
+    "Pairwise distances share trajectories and are not independent.",
+    "Within-chain and between-chain comparisons use different sample sizes.",
+    "No uncertainty calibration or equilibrium qualification is performed."
+  ]
+}

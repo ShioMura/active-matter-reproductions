@@ -1,0 +1,17 @@
+{
+  "block_sweeps": [
+    1000,
+    2000,
+    4000
+  ],
+  "repetitions": 999,
+  "seed": 942,
+  "record_every": 10,
+  "measurement_interval": [
+    20001,
+    100000
+  ],
+  "window_split": 60000,
+  "statistic": "Maximum within-chain window TV across all nine chains",
+  "status": "EXPLORATORY_BLOCK_PERMUTATION"
+}

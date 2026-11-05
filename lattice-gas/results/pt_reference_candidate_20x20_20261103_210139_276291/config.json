@@ -1,0 +1,101 @@
+{
+  "experiment": "PT20_FIXED_BUDGET_REFERENCE_CANDIDATE_V1",
+  "L": 20,
+  "N": 200,
+  "epsilon": 1.0,
+  "temperatures": [
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.7,
+    0.8,
+    1.0
+  ],
+  "runs": [
+    [
+      "random",
+      1442
+    ],
+    [
+      "random",
+      1443
+    ],
+    [
+      "random",
+      1444
+    ],
+    [
+      "vertical",
+      1445
+    ],
+    [
+      "vertical",
+      1446
+    ],
+    [
+      "vertical",
+      1447
+    ],
+    [
+      "horizontal",
+      1448
+    ],
+    [
+      "horizontal",
+      1449
+    ],
+    [
+      "horizontal",
+      1450
+    ]
+  ],
+  "cycles_per_run": 25000,
+  "initial_exclusion": 5000,
+  "measurement_windows": [
+    [
+      5001,
+      15000
+    ],
+    [
+      15001,
+      25000
+    ]
+  ],
+  "checkpoint_cycles": 5000,
+  "check_interval": 100,
+  "cold_snapshot_interval": 100,
+  "rng_streams": {
+    "initialization": 0,
+    "updates": 1
+  },
+  "schedule": "One nonlocal sweep per slot, then even/odd exchanges.",
+  "analysis": {
+    "block_lengths_cycles": [
+      500,
+      1000,
+      2000
+    ],
+    "q_definition": "I(D>0) + 0.5*I(D==0)",
+    "mean_screens": {
+      "U": {
+        "max_chain_range": 1.0,
+        "max_window_change": 1.0,
+        "max_block_sem": 0.25
+      },
+      "S_low": {
+        "max_chain_range": 0.5,
+        "max_window_change": 0.5,
+        "max_block_sem": 0.125
+      },
+      "q": {
+        "max_distance_from_half_per_chain": 0.1,
+        "max_window_change": 0.1,
+        "max_block_sem": 0.025
+      }
+    },
+    "interpretation": "Operational diagnostic screens, not confidence bounds on equilibrium bias. Precision failure means insufficient evidence. Passing does not qualify the joint configuration distribution."
+  },
+  "stopping": "Stop after nine runs of 25000 cycles. No automatic extension, ladder tuning, or reference replacement."
+}

@@ -1,0 +1,1453 @@
+{
+  "status": "CONDITIONAL_PRECISION_BUDGET_DIAGNOSTIC",
+  "source_directory": "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\pt_reference_candidate_20x20_20261103_015925_101620",
+  "measurement_window": [
+    5001,
+    25000
+  ],
+  "block_lengths_cycles": [
+    500,
+    1000,
+    2000
+  ],
+  "rows": [
+    {
+      "initial": "random",
+      "seed": 1442,
+      "observable": "U",
+      "mean": -361.66985,
+      "mcse_by_block": [
+        0.2159124868718338,
+        0.22505592609042968,
+        0.2359433200533095
+      ],
+      "max_batch_mcse": 0.2359433200533095,
+      "batch_ess_estimate": 392.765200098969,
+      "block_sensitivity_ratio": 1.0927729260668748,
+      "previous_mcse_target": 0.25,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "random",
+      "seed": 1442,
+      "observable": "S_low",
+      "mean": 16.809321693021392,
+      "mcse_by_block": [
+        0.09415048557763048,
+        0.0913407974661957,
+        0.09814373124092815
+      ],
+      "max_batch_mcse": 0.09814373124092815,
+      "batch_ess_estimate": 225.72854077076775,
+      "block_sensitivity_ratio": 1.0744785896712818,
+      "previous_mcse_target": 0.125,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "random",
+      "seed": 1442,
+      "observable": "abs_D",
+      "mean": 31.390395126069627,
+      "mcse_by_block": [
+        0.280835793982877,
+        0.27237417520441687,
+        0.3060857402822963
+      ],
+      "max_batch_mcse": 0.3060857402822963,
+      "batch_ess_estimate": 226.153825258799,
+      "block_sensitivity_ratio": 1.1237693149601238,
+      "previous_mcse_target": 0.5,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "random",
+      "seed": 1442,
+      "observable": "f_max",
+      "mean": 0.9926999999999999,
+      "mcse_by_block": [
+        0.0006387086330626189,
+        0.0005470013951680429,
+        0.0005878397362849553
+      ],
+      "max_batch_mcse": 0.0006387086330626189,
+      "batch_ess_estimate": 146.4860443006988,
+      "block_sensitivity_ratio": 1.1676544862676317,
+      "observed_count": null,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic batch-means uncertainty."
+    },
+    {
+      "initial": "random",
+      "seed": 1442,
+      "observable": "P(none)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "random",
+      "seed": 1442,
+      "observable": "P(axis0_only)",
+      "mean": 0.42,
+      "mcse_by_block": [
+        0.05154037501231686,
+        0.05600751829230749,
+        0.066332495807108
+      ],
+      "max_batch_mcse": 0.066332495807108,
+      "batch_ess_estimate": 55.64184559159435,
+      "block_sensitivity_ratio": 1.2870006435004826,
+      "observed_count": 84,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "random",
+      "seed": 1442,
+      "observable": "P(axis1_only)",
+      "mean": 0.58,
+      "mcse_by_block": [
+        0.05154037501231686,
+        0.05600751829230749,
+        0.066332495807108
+      ],
+      "max_batch_mcse": 0.066332495807108,
+      "batch_ess_estimate": 55.641845591594326,
+      "block_sensitivity_ratio": 1.2870006435004826,
+      "observed_count": 116,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "random",
+      "seed": 1442,
+      "observable": "P(both_projections_rank1)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "random",
+      "seed": 1442,
+      "observable": "P(rank2_present)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "random",
+      "seed": 1443,
+      "observable": "U",
+      "mean": -361.7067,
+      "mcse_by_block": [
+        0.17176203798368136,
+        0.1373389027571091,
+        0.11636812278283098
+      ],
+      "max_batch_mcse": 0.17176203798368136,
+      "batch_ess_estimate": 750.3197607501445,
+      "block_sensitivity_ratio": 1.4760231056079494,
+      "previous_mcse_target": 0.25,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "random",
+      "seed": 1443,
+      "observable": "S_low",
+      "mean": 16.796310686386633,
+      "mcse_by_block": [
+        0.07928600943620266,
+        0.08532475867422269,
+        0.09127670277407762
+      ],
+      "max_batch_mcse": 0.09127670277407762,
+      "batch_ess_estimate": 272.21682024006185,
+      "block_sensitivity_ratio": 1.1512334070429318,
+      "previous_mcse_target": 0.125,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "random",
+      "seed": 1443,
+      "observable": "abs_D",
+      "mean": 31.2677196092302,
+      "mcse_by_block": [
+        0.25817613714690524,
+        0.2788226179225399,
+        0.2572926896934128
+      ],
+      "max_batch_mcse": 0.2788226179225399,
+      "batch_ess_estimate": 292.79827139862954,
+      "block_sensitivity_ratio": 1.083678740561117,
+      "previous_mcse_target": 0.5,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "random",
+      "seed": 1443,
+      "observable": "f_max",
+      "mean": 0.9924,
+      "mcse_by_block": [
+        0.00048011750698430394,
+        0.0003256572301960266,
+        0.00027182510717168023
+      ],
+      "max_batch_mcse": 0.00048011750698430394,
+      "batch_ess_estimate": 238.66384201317814,
+      "block_sensitivity_ratio": 1.7662735866450692,
+      "observed_count": null,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic batch-means uncertainty."
+    },
+    {
+      "initial": "random",
+      "seed": 1443,
+      "observable": "P(none)",
+      "mean": 0.005,
+      "mcse_by_block": [
+        0.004999999999999999,
+        0.005000000000000001,
+        0.004999999999999999
+      ],
+      "max_batch_mcse": 0.005000000000000001,
+      "batch_ess_estimate": 200.00000000000003,
+      "block_sensitivity_ratio": 1.0000000000000004,
+      "observed_count": 1,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "random",
+      "seed": 1443,
+      "observable": "P(axis0_only)",
+      "mean": 0.515,
+      "mcse_by_block": [
+        0.05057996968497839,
+        0.06081680861839361,
+        0.06584915421712803
+      ],
+      "max_batch_mcse": 0.06584915421712803,
+      "batch_ess_estimate": 57.892923940651364,
+      "block_sensitivity_ratio": 1.3018820419871544,
+      "observed_count": 103,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "random",
+      "seed": 1443,
+      "observable": "P(axis1_only)",
+      "mean": 0.47,
+      "mcse_by_block": [
+        0.05091470997960896,
+        0.06074103789210821,
+        0.06333333333333332
+      ],
+      "max_batch_mcse": 0.06333333333333332,
+      "batch_ess_estimate": 62.41456590431382,
+      "block_sensitivity_ratio": 1.2439103229439576,
+      "observed_count": 94,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "random",
+      "seed": 1443,
+      "observable": "P(both_projections_rank1)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "random",
+      "seed": 1443,
+      "observable": "P(rank2_present)",
+      "mean": 0.01,
+      "mcse_by_block": [
+        0.0069798244045211275,
+        0.006882472016116852,
+        0.006666666666666666
+      ],
+      "max_batch_mcse": 0.0069798244045211275,
+      "batch_ess_estimate": 204.2316847394869,
+      "block_sensitivity_ratio": 1.0469736606781692,
+      "observed_count": 2,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "random",
+      "seed": 1444,
+      "observable": "U",
+      "mean": -361.6403,
+      "mcse_by_block": [
+        0.22560609591236688,
+        0.2724487310534435,
+        0.34519029534446505
+      ],
+      "max_batch_mcse": 0.34519029534446505,
+      "batch_ess_estimate": 194.0414750369042,
+      "block_sensitivity_ratio": 1.5300574833693712,
+      "previous_mcse_target": 0.25,
+      "conditional_length_factor": 1.9065014399999842,
+      "conditional_total_measurement_cycles": 39000
+    },
+    {
+      "initial": "random",
+      "seed": 1444,
+      "observable": "S_low",
+      "mean": 16.75760641679995,
+      "mcse_by_block": [
+        0.09049194924401552,
+        0.09941978555161497,
+        0.12586162490721156
+      ],
+      "max_batch_mcse": 0.12586162490721156,
+      "batch_ess_estimate": 163.12841144595828,
+      "block_sensitivity_ratio": 1.3908599158121808,
+      "previous_mcse_target": 0.125,
+      "conditional_length_factor": 1.0138335119541515,
+      "conditional_total_measurement_cycles": 21000
+    },
+    {
+      "initial": "random",
+      "seed": 1444,
+      "observable": "abs_D",
+      "mean": 31.061151009478245,
+      "mcse_by_block": [
+        0.2862482453982051,
+        0.3162488485769807,
+        0.3387766005654706
+      ],
+      "max_batch_mcse": 0.3387766005654706,
+      "batch_ess_estimate": 225.11290705523012,
+      "block_sensitivity_ratio": 1.1835062957126334,
+      "previous_mcse_target": 0.5,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "random",
+      "seed": 1444,
+      "observable": "f_max",
+      "mean": 0.9925,
+      "mcse_by_block": [
+        0.0005683985600588066,
+        0.0006219663216470435,
+        0.0005540256712864767
+      ],
+      "max_batch_mcse": 0.0006219663216470435,
+      "batch_ess_estimate": 190.95477386934922,
+      "block_sensitivity_ratio": 1.1226308705205033,
+      "observed_count": null,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic batch-means uncertainty."
+    },
+    {
+      "initial": "random",
+      "seed": 1444,
+      "observable": "P(none)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "random",
+      "seed": 1444,
+      "observable": "P(axis0_only)",
+      "mean": 0.505,
+      "mcse_by_block": [
+        0.04856267428111155,
+        0.05779956291949111,
+        0.034520525295346625
+      ],
+      "max_batch_mcse": 0.05779956291949111,
+      "batch_ess_estimate": 75.20113367150837,
+      "block_sensitivity_ratio": 1.6743535164942145,
+      "observed_count": 101,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "random",
+      "seed": 1444,
+      "observable": "P(axis1_only)",
+      "mean": 0.495,
+      "mcse_by_block": [
+        0.04856267428111155,
+        0.05779956291949111,
+        0.034520525295346625
+      ],
+      "max_batch_mcse": 0.05779956291949111,
+      "batch_ess_estimate": 75.20113367150837,
+      "block_sensitivity_ratio": 1.6743535164942145,
+      "observed_count": 99,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "random",
+      "seed": 1444,
+      "observable": "P(both_projections_rank1)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "random",
+      "seed": 1444,
+      "observable": "P(rank2_present)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "vertical",
+      "seed": 1445,
+      "observable": "U",
+      "mean": -361.518,
+      "mcse_by_block": [
+        0.17363681519120155,
+        0.13788954389579272,
+        0.09691330604663428
+      ],
+      "max_batch_mcse": 0.17363681519120155,
+      "batch_ess_estimate": 760.6838397437657,
+      "block_sensitivity_ratio": 1.7916715699250652,
+      "previous_mcse_target": 0.25,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "vertical",
+      "seed": 1445,
+      "observable": "S_low",
+      "mean": 16.622761989927092,
+      "mcse_by_block": [
+        0.06971419820594192,
+        0.05942982646045933,
+        0.03652890553334608
+      ],
+      "max_batch_mcse": 0.06971419820594192,
+      "batch_ess_estimate": 482.7381612583426,
+      "block_sensitivity_ratio": 1.908466656420955,
+      "previous_mcse_target": 0.125,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "vertical",
+      "seed": 1445,
+      "observable": "abs_D",
+      "mean": 30.632528497258516,
+      "mcse_by_block": [
+        0.2302687003593693,
+        0.22481929837321257,
+        0.17123990950250514
+      ],
+      "max_batch_mcse": 0.2302687003593693,
+      "batch_ess_estimate": 470.19169771885316,
+      "block_sensitivity_ratio": 1.34471398068568,
+      "previous_mcse_target": 0.5,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "vertical",
+      "seed": 1445,
+      "observable": "f_max",
+      "mean": 0.9919499999999999,
+      "mcse_by_block": [
+        0.000730252853995952,
+        0.0008365813893774067,
+        0.0008188745664359061
+      ],
+      "max_batch_mcse": 0.0008365813893774067,
+      "batch_ess_estimate": 110.85716229200158,
+      "block_sensitivity_ratio": 1.1456050939063418,
+      "observed_count": null,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic batch-means uncertainty."
+    },
+    {
+      "initial": "vertical",
+      "seed": 1445,
+      "observable": "P(none)",
+      "mean": 0.005,
+      "mcse_by_block": [
+        0.004999999999999999,
+        0.005000000000000001,
+        0.004999999999999999
+      ],
+      "max_batch_mcse": 0.005000000000000001,
+      "batch_ess_estimate": 200.00000000000006,
+      "block_sensitivity_ratio": 1.0000000000000004,
+      "observed_count": 1,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "vertical",
+      "seed": 1445,
+      "observable": "P(axis0_only)",
+      "mean": 0.445,
+      "mcse_by_block": [
+        0.05138467296173651,
+        0.06090328830462103,
+        0.07973915809270457
+      ],
+      "max_batch_mcse": 0.07973915809270457,
+      "batch_ess_estimate": 39.037915659555956,
+      "block_sensitivity_ratio": 1.5518082240609408,
+      "observed_count": 89,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "vertical",
+      "seed": 1445,
+      "observable": "P(axis1_only)",
+      "mean": 0.55,
+      "mcse_by_block": [
+        0.05151549430847145,
+        0.06048053188292995,
+        0.07993052538854532
+      ],
+      "max_batch_mcse": 0.07993052538854532,
+      "batch_ess_estimate": 38.933799431942326,
+      "block_sensitivity_ratio": 1.5515822270854376,
+      "observed_count": 110,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "vertical",
+      "seed": 1445,
+      "observable": "P(both_projections_rank1)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "vertical",
+      "seed": 1445,
+      "observable": "P(rank2_present)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "vertical",
+      "seed": 1446,
+      "observable": "U",
+      "mean": -361.27145,
+      "mcse_by_block": [
+        0.1638301338472565,
+        0.15184575752699753,
+        0.19582762332100873
+      ],
+      "max_batch_mcse": 0.19582762332100873,
+      "batch_ess_estimate": 572.8121633688248,
+      "block_sensitivity_ratio": 1.2896483017392923,
+      "previous_mcse_target": 0.25,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "vertical",
+      "seed": 1446,
+      "observable": "S_low",
+      "mean": 16.55332404349893,
+      "mcse_by_block": [
+        0.0922444841172303,
+        0.09939423625623336,
+        0.10668561374663828
+      ],
+      "max_batch_mcse": 0.10668561374663828,
+      "batch_ess_estimate": 205.25696423783705,
+      "block_sensitivity_ratio": 1.1565527713402923,
+      "previous_mcse_target": 0.125,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "vertical",
+      "seed": 1446,
+      "observable": "abs_D",
+      "mean": 30.450758512316924,
+      "mcse_by_block": [
+        0.2700182206316469,
+        0.2604587123907463,
+        0.25601857379564985
+      ],
+      "max_batch_mcse": 0.2700182206316469,
+      "batch_ess_estimate": 336.4698277350358,
+      "block_sensitivity_ratio": 1.0546821530502366,
+      "previous_mcse_target": 0.5,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "vertical",
+      "seed": 1446,
+      "observable": "f_max",
+      "mean": 0.99275,
+      "mcse_by_block": [
+        0.0006590105247982567,
+        0.00045523273400016454,
+        0.0004265494630689888
+      ],
+      "max_batch_mcse": 0.0006590105247982567,
+      "batch_ess_estimate": 169.36713085723775,
+      "block_sensitivity_ratio": 1.5449803173041867,
+      "observed_count": null,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic batch-means uncertainty."
+    },
+    {
+      "initial": "vertical",
+      "seed": 1446,
+      "observable": "P(none)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "vertical",
+      "seed": 1446,
+      "observable": "P(axis0_only)",
+      "mean": 0.405,
+      "mcse_by_block": [
+        0.04882595988789528,
+        0.056417149315098385,
+        0.07507403753036805
+      ],
+      "max_batch_mcse": 0.07507403753036805,
+      "batch_ess_estimate": 42.97039658618376,
+      "block_sensitivity_ratio": 1.5375844674173027,
+      "observed_count": 81,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "vertical",
+      "seed": 1446,
+      "observable": "P(axis1_only)",
+      "mean": 0.59,
+      "mcse_by_block": [
+        0.048542870294310536,
+        0.0566150435652463,
+        0.07520342781785652
+      ],
+      "max_batch_mcse": 0.07520342781785652,
+      "batch_ess_estimate": 42.98703734783938,
+      "block_sensitivity_ratio": 1.5492167513355866,
+      "observed_count": 118,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "vertical",
+      "seed": 1446,
+      "observable": "P(both_projections_rank1)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "vertical",
+      "seed": 1446,
+      "observable": "P(rank2_present)",
+      "mean": 0.005,
+      "mcse_by_block": [
+        0.004999999999999999,
+        0.005000000000000001,
+        0.004999999999999999
+      ],
+      "max_batch_mcse": 0.005000000000000001,
+      "batch_ess_estimate": 200.00000000000006,
+      "block_sensitivity_ratio": 1.0000000000000004,
+      "observed_count": 1,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "vertical",
+      "seed": 1447,
+      "observable": "U",
+      "mean": -361.70815,
+      "mcse_by_block": [
+        0.1970209853133576,
+        0.20667595122749394,
+        0.2556599200544021
+      ],
+      "max_batch_mcse": 0.2556599200544021,
+      "batch_ess_estimate": 364.6961134230395,
+      "block_sensitivity_ratio": 1.2976278625740325,
+      "previous_mcse_target": 0.25,
+      "conditional_length_factor": 1.0457919155555722,
+      "conditional_total_measurement_cycles": 21000
+    },
+    {
+      "initial": "vertical",
+      "seed": 1447,
+      "observable": "S_low",
+      "mean": 16.711300307457037,
+      "mcse_by_block": [
+        0.08298603284784072,
+        0.09184412769541139,
+        0.10614811004619097
+      ],
+      "max_batch_mcse": 0.10614811004619097,
+      "batch_ess_estimate": 211.7371889128705,
+      "block_sensitivity_ratio": 1.2791081390867203,
+      "previous_mcse_target": 0.125,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "vertical",
+      "seed": 1447,
+      "observable": "abs_D",
+      "mean": 31.06143535074062,
+      "mcse_by_block": [
+        0.2580548590432347,
+        0.2813228406846518,
+        0.29236922488758194
+      ],
+      "max_batch_mcse": 0.29236922488758194,
+      "batch_ess_estimate": 280.4934276089977,
+      "block_sensitivity_ratio": 1.1329731436624417,
+      "previous_mcse_target": 0.5,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "vertical",
+      "seed": 1447,
+      "observable": "f_max",
+      "mean": 0.9939999999999999,
+      "mcse_by_block": [
+        0.00045853725067481133,
+        0.000550119604220184,
+        0.0005868938953886531
+      ],
+      "max_batch_mcse": 0.0005868938953886531,
+      "batch_ess_estimate": 111.60641919273068,
+      "block_sensitivity_ratio": 1.2799263190175811,
+      "observed_count": null,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic batch-means uncertainty."
+    },
+    {
+      "initial": "vertical",
+      "seed": 1447,
+      "observable": "P(none)",
+      "mean": 0.005,
+      "mcse_by_block": [
+        0.004999999999999999,
+        0.005000000000000001,
+        0.004999999999999999
+      ],
+      "max_batch_mcse": 0.005000000000000001,
+      "batch_ess_estimate": 199.99999999999991,
+      "block_sensitivity_ratio": 1.0000000000000004,
+      "observed_count": 1,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "vertical",
+      "seed": 1447,
+      "observable": "P(axis0_only)",
+      "mean": 0.46,
+      "mcse_by_block": [
+        0.05023023913019849,
+        0.0642364054837573,
+        0.08225975119502045
+      ],
+      "max_batch_mcse": 0.08225975119502045,
+      "batch_ess_estimate": 36.89382874965961,
+      "block_sensitivity_ratio": 1.6376539833266646,
+      "observed_count": 92,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "vertical",
+      "seed": 1447,
+      "observable": "P(axis1_only)",
+      "mean": 0.535,
+      "mcse_by_block": [
+        0.050832807899764486,
+        0.06377386034385792,
+        0.08166666666666667
+      ],
+      "max_batch_mcse": 0.08166666666666667,
+      "batch_ess_estimate": 37.48814878222851,
+      "block_sensitivity_ratio": 1.606573983237409,
+      "observed_count": 107,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "vertical",
+      "seed": 1447,
+      "observable": "P(both_projections_rank1)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "vertical",
+      "seed": 1447,
+      "observable": "P(rank2_present)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1448,
+      "observable": "U",
+      "mean": -361.60315,
+      "mcse_by_block": [
+        0.18285664677345173,
+        0.19701945235245957,
+        0.1299784608224656
+      ],
+      "max_batch_mcse": 0.19701945235245957,
+      "batch_ess_estimate": 587.0854630149171,
+      "block_sensitivity_ratio": 1.5157853932549916,
+      "previous_mcse_target": 0.25,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1448,
+      "observable": "S_low",
+      "mean": 16.71849944623078,
+      "mcse_by_block": [
+        0.08471586399636878,
+        0.08031256042895724,
+        0.05740004253464173
+      ],
+      "max_batch_mcse": 0.08471586399636878,
+      "batch_ess_estimate": 320.6119624107819,
+      "block_sensitivity_ratio": 1.475885038678178,
+      "previous_mcse_target": 0.125,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1448,
+      "observable": "abs_D",
+      "mean": 31.117533372514707,
+      "mcse_by_block": [
+        0.25360175980947847,
+        0.2623577850495563,
+        0.1833518966287098
+      ],
+      "max_batch_mcse": 0.2623577850495563,
+      "batch_ess_estimate": 307.81697859576695,
+      "block_sensitivity_ratio": 1.4308975793189342,
+      "previous_mcse_target": 0.5,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1448,
+      "observable": "f_max",
+      "mean": 0.9924499999999999,
+      "mcse_by_block": [
+        0.0005286048400488601,
+        0.0006568465333858846,
+        0.0006098724821177346
+      ],
+      "max_batch_mcse": 0.0006568465333858846,
+      "batch_ess_estimate": 130.44208538882256,
+      "block_sensitivity_ratio": 1.2426040846034834,
+      "observed_count": null,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic batch-means uncertainty."
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1448,
+      "observable": "P(none)",
+      "mean": 0.01,
+      "mcse_by_block": [
+        0.0069798244045211275,
+        0.006882472016116852,
+        0.006666666666666666
+      ],
+      "max_batch_mcse": 0.0069798244045211275,
+      "batch_ess_estimate": 204.2316847394869,
+      "block_sensitivity_ratio": 1.0469736606781692,
+      "observed_count": 2,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1448,
+      "observable": "P(axis0_only)",
+      "mean": 0.36,
+      "mcse_by_block": [
+        0.0459654273647109,
+        0.05201214433086505,
+        0.06227180564089801
+      ],
+      "max_batch_mcse": 0.06227180564089801,
+      "batch_ess_estimate": 59.71404299434135,
+      "block_sensitivity_ratio": 1.354753109261985,
+      "observed_count": 72,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1448,
+      "observable": "P(axis1_only)",
+      "mean": 0.63,
+      "mcse_by_block": [
+        0.04671243177197353,
+        0.052865270661420646,
+        0.06289320754704403
+      ],
+      "max_batch_mcse": 0.06289320754704403,
+      "batch_ess_estimate": 59.22590480492349,
+      "block_sensitivity_ratio": 1.346391210246918,
+      "observed_count": 126,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1448,
+      "observable": "P(both_projections_rank1)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1448,
+      "observable": "P(rank2_present)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1449,
+      "observable": "U",
+      "mean": -361.48135,
+      "mcse_by_block": [
+        0.1882967977382023,
+        0.17508196990041625,
+        0.1896718079268039
+      ],
+      "max_batch_mcse": 0.1896718079268039,
+      "batch_ess_estimate": 666.7210086302852,
+      "block_sensitivity_ratio": 1.0833314705945227,
+      "previous_mcse_target": 0.25,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1449,
+      "observable": "S_low",
+      "mean": 16.689731145217127,
+      "mcse_by_block": [
+        0.08287383684387718,
+        0.08794273176510216,
+        0.1122684643546329
+      ],
+      "max_batch_mcse": 0.1122684643546329,
+      "batch_ess_estimate": 186.5908599562636,
+      "block_sensitivity_ratio": 1.3546912829211843,
+      "previous_mcse_target": 0.125,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1449,
+      "observable": "abs_D",
+      "mean": 30.989267715197755,
+      "mcse_by_block": [
+        0.2198018499834608,
+        0.2291959246065843,
+        0.23246353623863966
+      ],
+      "max_batch_mcse": 0.23246353623863966,
+      "batch_ess_estimate": 392.0606251230057,
+      "block_sensitivity_ratio": 1.0576050031250037,
+      "previous_mcse_target": 0.5,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1449,
+      "observable": "f_max",
+      "mean": 0.9924,
+      "mcse_by_block": [
+        0.0005380401281383967,
+        0.0006341177044980725,
+        0.0005703312877422793
+      ],
+      "max_batch_mcse": 0.0006341177044980725,
+      "batch_ess_estimate": 158.68741613827933,
+      "block_sensitivity_ratio": 1.1785695366107756,
+      "observed_count": null,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic batch-means uncertainty."
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1449,
+      "observable": "P(none)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1449,
+      "observable": "P(axis0_only)",
+      "mean": 0.575,
+      "mcse_by_block": [
+        0.05555662392135127,
+        0.0691584755242776,
+        0.0847381587925744
+      ],
+      "max_batch_mcse": 0.0847381587925744,
+      "batch_ess_estimate": 34.20390151920142,
+      "block_sensitivity_ratio": 1.5252575266728585,
+      "observed_count": 115,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1449,
+      "observable": "P(axis1_only)",
+      "mean": 0.425,
+      "mcse_by_block": [
+        0.05555662392135127,
+        0.0691584755242776,
+        0.0847381587925744
+      ],
+      "max_batch_mcse": 0.0847381587925744,
+      "batch_ess_estimate": 34.20390151920142,
+      "block_sensitivity_ratio": 1.5252575266728585,
+      "observed_count": 85,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1449,
+      "observable": "P(both_projections_rank1)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1449,
+      "observable": "P(rank2_present)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1450,
+      "observable": "U",
+      "mean": -361.74495,
+      "mcse_by_block": [
+        0.1691453931931387,
+        0.15244242183094509,
+        0.1387213123496165
+      ],
+      "max_batch_mcse": 0.1691453931931387,
+      "batch_ess_estimate": 762.4839273093847,
+      "block_sensitivity_ratio": 1.219318000444265,
+      "previous_mcse_target": 0.25,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1450,
+      "observable": "S_low",
+      "mean": 16.773637518513517,
+      "mcse_by_block": [
+        0.0815983783700411,
+        0.07532833118874813,
+        0.08321192789442661
+      ],
+      "max_batch_mcse": 0.08321192789442661,
+      "batch_ess_estimate": 331.24247434669377,
+      "block_sensitivity_ratio": 1.1046564629969668,
+      "previous_mcse_target": 0.125,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1450,
+      "observable": "abs_D",
+      "mean": 31.271352966498117,
+      "mcse_by_block": [
+        0.24993689016830553,
+        0.2791398804428191,
+        0.29530179362380393
+      ],
+      "max_batch_mcse": 0.29530179362380393,
+      "batch_ess_estimate": 237.02845014577116,
+      "block_sensitivity_ratio": 1.1815054329312893,
+      "previous_mcse_target": 0.5,
+      "conditional_length_factor": 1.0,
+      "conditional_total_measurement_cycles": 20000
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1450,
+      "observable": "f_max",
+      "mean": 0.9927499999999999,
+      "mcse_by_block": [
+        0.0005123475382979853,
+        0.00045087633968108525,
+        0.0004958158260214612
+      ],
+      "max_batch_mcse": 0.0005123475382979853,
+      "batch_ess_estimate": 180.6652309164837,
+      "block_sensitivity_ratio": 1.1363371576791543,
+      "observed_count": null,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic batch-means uncertainty."
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1450,
+      "observable": "P(none)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1450,
+      "observable": "P(axis0_only)",
+      "mean": 0.37,
+      "mcse_by_block": [
+        0.05385164807134504,
+        0.06692493831466004,
+        0.07859884081701063
+      ],
+      "max_batch_mcse": 0.07859884081701063,
+      "batch_ess_estimate": 37.92162250099418,
+      "block_sensitivity_ratio": 1.4595438325839056,
+      "observed_count": 74,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1450,
+      "observable": "P(axis1_only)",
+      "mean": 0.63,
+      "mcse_by_block": [
+        0.05385164807134504,
+        0.06692493831466004,
+        0.07859884081701063
+      ],
+      "max_batch_mcse": 0.07859884081701063,
+      "batch_ess_estimate": 37.92162250099418,
+      "block_sensitivity_ratio": 1.4595438325839056,
+      "observed_count": 126,
+      "records": 200,
+      "constant_trace": false,
+      "interpretation": "Diagnostic only; sparse events may give unstable error estimates."
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1450,
+      "observable": "P(both_projections_rank1)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1450,
+      "observable": "P(rank2_present)",
+      "mean": 0.0,
+      "mcse_by_block": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_batch_mcse": 0.0,
+      "batch_ess_estimate": null,
+      "block_sensitivity_ratio": null,
+      "observed_count": 0,
+      "records": 200,
+      "constant_trace": true,
+      "interpretation": "Constant trace: zero empirical MCSE does not establish precision."
+    }
+  ],
+  "limitations": [
+    "Length projections assume stationarity and unchanged correlation times.",
+    "Batch ESS estimates can be unreliable when blocks remain correlated.",
+    "Constant or rare indicators do not establish precise category probabilities.",
+    "No rank-normalized R-hat or joint-distribution assessment is performed here.",
+    "No equilibrium qualification or automatic continuation."
+  ]
+}

@@ -1,0 +1,640 @@
+{
+  "status": "DESCRIPTIVE_FINITE_TIME_COMPARISON",
+  "local_directory": "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\kawasaki_initial_states_20261102_215633_047070",
+  "reference_directory": "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\nonlocal_20x20_100k_20261102_234519_565743",
+  "reference_status": "PROVISIONAL_OBSERVABLE_MEAN_REFERENCE",
+  "windows": [
+    [
+      5001,
+      7500
+    ],
+    [
+      7501,
+      10000
+    ]
+  ],
+  "block_lengths_sweeps": [
+    250,
+    500
+  ],
+  "rows": [
+    {
+      "initial": "random",
+      "seed": 442,
+      "label": "random 442",
+      "observable": "U",
+      "window_id": 0,
+      "window": [
+        5001,
+        7500
+      ],
+      "n_records": 250,
+      "local_mean": -357.488,
+      "reference_mean": -361.738375,
+      "difference": 4.2503750000000196,
+      "local_block_sem": {
+        "250": 0.8507418984496852,
+        "500": 0.9678140317230395
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.04800963806593767,
+      "reference_combined_block_sem": 0.04397092519665005
+    },
+    {
+      "initial": "random",
+      "seed": 442,
+      "label": "random 442",
+      "observable": "S_low",
+      "window_id": 0,
+      "window": [
+        5001,
+        7500
+      ],
+      "n_records": 250,
+      "local_mean": 14.029878021347756,
+      "reference_mean": 16.79481292652055,
+      "difference": -2.764934905172794,
+      "local_block_sem": {
+        "250": 0.2510323587371092,
+        "500": 0.36447745316170194
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.026793087759996656,
+      "reference_combined_block_sem": 0.02318738737629712
+    },
+    {
+      "initial": "random",
+      "seed": 442,
+      "label": "random 442",
+      "observable": "U",
+      "window_id": 1,
+      "window": [
+        7501,
+        10000
+      ],
+      "n_records": 250,
+      "local_mean": -357.7,
+      "reference_mean": -361.738375,
+      "difference": 4.0383750000000305,
+      "local_block_sem": {
+        "250": 0.9898192876592259,
+        "500": 1.3050210726267994
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.04800963806593767,
+      "reference_combined_block_sem": 0.04397092519665005
+    },
+    {
+      "initial": "random",
+      "seed": 442,
+      "label": "random 442",
+      "observable": "S_low",
+      "window_id": 1,
+      "window": [
+        7501,
+        10000
+      ],
+      "n_records": 250,
+      "local_mean": 15.138976845934835,
+      "reference_mean": 16.79481292652055,
+      "difference": -1.6558360805857149,
+      "local_block_sem": {
+        "250": 0.3759131797871902,
+        "500": 0.5397111291207208
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.026793087759996656,
+      "reference_combined_block_sem": 0.02318738737629712
+    },
+    {
+      "initial": "random",
+      "seed": 443,
+      "label": "random 443",
+      "observable": "U",
+      "window_id": 0,
+      "window": [
+        5001,
+        7500
+      ],
+      "n_records": 250,
+      "local_mean": -351.44,
+      "reference_mean": -361.738375,
+      "difference": 10.298375000000021,
+      "local_block_sem": {
+        "250": 1.0385117556709063,
+        "500": 1.1517985935049544
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.04800963806593767,
+      "reference_combined_block_sem": 0.04397092519665005
+    },
+    {
+      "initial": "random",
+      "seed": 443,
+      "label": "random 443",
+      "observable": "S_low",
+      "window_id": 0,
+      "window": [
+        5001,
+        7500
+      ],
+      "n_records": 250,
+      "local_mean": 8.606311960965185,
+      "reference_mean": 16.79481292652055,
+      "difference": -8.188500965555365,
+      "local_block_sem": {
+        "250": 0.33279072903167445,
+        "500": 0.398205466293519
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.026793087759996656,
+      "reference_combined_block_sem": 0.02318738737629712
+    },
+    {
+      "initial": "random",
+      "seed": 443,
+      "label": "random 443",
+      "observable": "U",
+      "window_id": 1,
+      "window": [
+        7501,
+        10000
+      ],
+      "n_records": 250,
+      "local_mean": -350.836,
+      "reference_mean": -361.738375,
+      "difference": 10.902375000000006,
+      "local_block_sem": {
+        "250": 1.317916874802384,
+        "500": 0.9734351544915569
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.04800963806593767,
+      "reference_combined_block_sem": 0.04397092519665005
+    },
+    {
+      "initial": "random",
+      "seed": 443,
+      "label": "random 443",
+      "observable": "S_low",
+      "window_id": 1,
+      "window": [
+        7501,
+        10000
+      ],
+      "n_records": 250,
+      "local_mean": 8.17786652189493,
+      "reference_mean": 16.79481292652055,
+      "difference": -8.616946404625619,
+      "local_block_sem": {
+        "250": 0.2767310192631421,
+        "500": 0.3318593893241398
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.026793087759996656,
+      "reference_combined_block_sem": 0.02318738737629712
+    },
+    {
+      "initial": "random",
+      "seed": 444,
+      "label": "random 444",
+      "observable": "U",
+      "window_id": 0,
+      "window": [
+        5001,
+        7500
+      ],
+      "n_records": 250,
+      "local_mean": -358.336,
+      "reference_mean": -361.738375,
+      "difference": 3.4023750000000064,
+      "local_block_sem": {
+        "250": 0.6086838259720705,
+        "500": 0.7063823327349004
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.04800963806593767,
+      "reference_combined_block_sem": 0.04397092519665005
+    },
+    {
+      "initial": "random",
+      "seed": 444,
+      "label": "random 444",
+      "observable": "S_low",
+      "window_id": 0,
+      "window": [
+        5001,
+        7500
+      ],
+      "n_records": 250,
+      "local_mean": 14.718339416359896,
+      "reference_mean": 16.79481292652055,
+      "difference": -2.0764735101606533,
+      "local_block_sem": {
+        "250": 0.17607587114472265,
+        "500": 0.2349086558985798
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.026793087759996656,
+      "reference_combined_block_sem": 0.02318738737629712
+    },
+    {
+      "initial": "random",
+      "seed": 444,
+      "label": "random 444",
+      "observable": "U",
+      "window_id": 1,
+      "window": [
+        7501,
+        10000
+      ],
+      "n_records": 250,
+      "local_mean": -360.98,
+      "reference_mean": -361.738375,
+      "difference": 0.7583750000000009,
+      "local_block_sem": {
+        "250": 0.7721197374040397,
+        "500": 0.5623522028053243
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.04800963806593767,
+      "reference_combined_block_sem": 0.04397092519665005
+    },
+    {
+      "initial": "random",
+      "seed": 444,
+      "label": "random 444",
+      "observable": "S_low",
+      "window_id": 1,
+      "window": [
+        7501,
+        10000
+      ],
+      "n_records": 250,
+      "local_mean": 15.583388515600845,
+      "reference_mean": 16.79481292652055,
+      "difference": -1.2114244109197045,
+      "local_block_sem": {
+        "250": 0.35906938903542995,
+        "500": 0.4758286258981962
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.026793087759996656,
+      "reference_combined_block_sem": 0.02318738737629712
+    },
+    {
+      "initial": "stripe",
+      "seed": 445,
+      "label": "stripe 445",
+      "observable": "U",
+      "window_id": 0,
+      "window": [
+        5001,
+        7500
+      ],
+      "n_records": 250,
+      "local_mean": -357.948,
+      "reference_mean": -361.738375,
+      "difference": 3.79037500000004,
+      "local_block_sem": {
+        "250": 0.9485811626962791,
+        "500": 1.272817347461917
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.04800963806593767,
+      "reference_combined_block_sem": 0.04397092519665005
+    },
+    {
+      "initial": "stripe",
+      "seed": 445,
+      "label": "stripe 445",
+      "observable": "S_low",
+      "window_id": 0,
+      "window": [
+        5001,
+        7500
+      ],
+      "n_records": 250,
+      "local_mean": 14.918856724936035,
+      "reference_mean": 16.79481292652055,
+      "difference": -1.8759562015845148,
+      "local_block_sem": {
+        "250": 0.45931038856081846,
+        "500": 0.6713007263938772
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.026793087759996656,
+      "reference_combined_block_sem": 0.02318738737629712
+    },
+    {
+      "initial": "stripe",
+      "seed": 445,
+      "label": "stripe 445",
+      "observable": "U",
+      "window_id": 1,
+      "window": [
+        7501,
+        10000
+      ],
+      "n_records": 250,
+      "local_mean": -361.196,
+      "reference_mean": -361.738375,
+      "difference": 0.5423749999999927,
+      "local_block_sem": {
+        "250": 0.9260179983851993,
+        "500": 1.092124535023365
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.04800963806593767,
+      "reference_combined_block_sem": 0.04397092519665005
+    },
+    {
+      "initial": "stripe",
+      "seed": 445,
+      "label": "stripe 445",
+      "observable": "S_low",
+      "window_id": 1,
+      "window": [
+        7501,
+        10000
+      ],
+      "n_records": 250,
+      "local_mean": 16.71175257703293,
+      "reference_mean": 16.79481292652055,
+      "difference": -0.08306034948762075,
+      "local_block_sem": {
+        "250": 0.4319390744321113,
+        "500": 0.6231851450857435
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.026793087759996656,
+      "reference_combined_block_sem": 0.02318738737629712
+    },
+    {
+      "initial": "stripe",
+      "seed": 446,
+      "label": "stripe 446",
+      "observable": "U",
+      "window_id": 0,
+      "window": [
+        5001,
+        7500
+      ],
+      "n_records": 250,
+      "local_mean": -362.86,
+      "reference_mean": -361.738375,
+      "difference": -1.1216249999999945,
+      "local_block_sem": {
+        "250": 0.8138413713849746,
+        "500": 1.0487516388545035
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.04800963806593767,
+      "reference_combined_block_sem": 0.04397092519665005
+    },
+    {
+      "initial": "stripe",
+      "seed": 446,
+      "label": "stripe 446",
+      "observable": "S_low",
+      "window_id": 0,
+      "window": [
+        5001,
+        7500
+      ],
+      "n_records": 250,
+      "local_mean": 17.1575292935781,
+      "reference_mean": 16.79481292652055,
+      "difference": 0.3627163670575513,
+      "local_block_sem": {
+        "250": 0.2836786228834624,
+        "500": 0.407196326692396
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.026793087759996656,
+      "reference_combined_block_sem": 0.02318738737629712
+    },
+    {
+      "initial": "stripe",
+      "seed": 446,
+      "label": "stripe 446",
+      "observable": "U",
+      "window_id": 1,
+      "window": [
+        7501,
+        10000
+      ],
+      "n_records": 250,
+      "local_mean": -363.304,
+      "reference_mean": -361.738375,
+      "difference": -1.5656249999999545,
+      "local_block_sem": {
+        "250": 1.0017620032278667,
+        "500": 1.4566454613254403
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.04800963806593767,
+      "reference_combined_block_sem": 0.04397092519665005
+    },
+    {
+      "initial": "stripe",
+      "seed": 446,
+      "label": "stripe 446",
+      "observable": "S_low",
+      "window_id": 1,
+      "window": [
+        7501,
+        10000
+      ],
+      "n_records": 250,
+      "local_mean": 17.67058905297421,
+      "reference_mean": 16.79481292652055,
+      "difference": 0.8757761264536619,
+      "local_block_sem": {
+        "250": 0.22250624104858746,
+        "500": 0.32420978218829816
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.026793087759996656,
+      "reference_combined_block_sem": 0.02318738737629712
+    },
+    {
+      "initial": "stripe",
+      "seed": 447,
+      "label": "stripe 447",
+      "observable": "U",
+      "window_id": 0,
+      "window": [
+        5001,
+        7500
+      ],
+      "n_records": 250,
+      "local_mean": -364.576,
+      "reference_mean": -361.738375,
+      "difference": -2.8376250000000027,
+      "local_block_sem": {
+        "250": 0.8031980522331421,
+        "500": 1.156086501953896
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.04800963806593767,
+      "reference_combined_block_sem": 0.04397092519665005
+    },
+    {
+      "initial": "stripe",
+      "seed": 447,
+      "label": "stripe 447",
+      "observable": "S_low",
+      "window_id": 0,
+      "window": [
+        5001,
+        7500
+      ],
+      "n_records": 250,
+      "local_mean": 17.60875162279829,
+      "reference_mean": 16.79481292652055,
+      "difference": 0.8139386962777415,
+      "local_block_sem": {
+        "250": 0.21277735294023348,
+        "500": 0.30641423771564974
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.026793087759996656,
+      "reference_combined_block_sem": 0.02318738737629712
+    },
+    {
+      "initial": "stripe",
+      "seed": 447,
+      "label": "stripe 447",
+      "observable": "U",
+      "window_id": 1,
+      "window": [
+        7501,
+        10000
+      ],
+      "n_records": 250,
+      "local_mean": -363.496,
+      "reference_mean": -361.738375,
+      "difference": -1.7576249999999618,
+      "local_block_sem": {
+        "250": 0.47160058429894997,
+        "500": 0.3154932645873816
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.04800963806593767,
+      "reference_combined_block_sem": 0.04397092519665005
+    },
+    {
+      "initial": "stripe",
+      "seed": 447,
+      "label": "stripe 447",
+      "observable": "S_low",
+      "window_id": 1,
+      "window": [
+        7501,
+        10000
+      ],
+      "n_records": 250,
+      "local_mean": 18.0151032255095,
+      "reference_mean": 16.79481292652055,
+      "difference": 1.2202902989889495,
+      "local_block_sem": {
+        "250": 0.07550031507457228,
+        "500": 0.0383201494804081
+      },
+      "n_blocks": {
+        "250": 10,
+        "500": 5
+      },
+      "reference_between_chain_sem": 0.026793087759996656,
+      "reference_combined_block_sem": 0.02318738737629712
+    }
+  ],
+  "source_sha256": {
+    "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\kawasaki_initial_states_20261102_215633_047070\\config.json": "aa8f1eff258b432c276014fc5145700d2765404e08fa3b20e294b6289d498c1d",
+    "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\nonlocal_20x20_100k_20261102_234519_565743\\config.json": "ec1c757c879eaef030caec261e0925118e8ebb1dd5c06429c4cf1296bc7d87fc",
+    "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\nonlocal_20x20_100k_20261102_234519_565743\\provisional_reference_summary.json": "81abd7691b61a20730c1dcedf8e228206a22743952cf8b8804d594345ad6594d",
+    "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\kawasaki_initial_states_20261102_215633_047070\\random_seed_442.npz": "f19bc7380d2af5190d95bacad0e9cea31102db07b90f8ac1837d6bc7bf48c027",
+    "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\kawasaki_initial_states_20261102_215633_047070\\random_seed_443.npz": "c94f2c3aa1a04d8ec878c794bb04d1b7a041d08c66b51c6d20af5a209ab7aaa3",
+    "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\kawasaki_initial_states_20261102_215633_047070\\random_seed_444.npz": "e0653b6ffc1e0e8d7e1c08ed0c2ca67fe410ef07cdedd105fa1eeb51b9439ccd",
+    "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\kawasaki_initial_states_20261102_215633_047070\\stripe_seed_445.npz": "0427529bf50a88353ffc586f6b38420cb45da4d867db96a4f46fd857d2daf790",
+    "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\kawasaki_initial_states_20261102_215633_047070\\stripe_seed_446.npz": "3fcd6044b3e25f7d93ee86e49a32bef1b80191bbf47d107bbeea634e44d1ed3a",
+    "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\kawasaki_initial_states_20261102_215633_047070\\stripe_seed_447.npz": "9866d93b9360ba14cc102e57f882b208dfa2c866f196834822faccbb6df61a1f"
+  },
+  "limitations": [
+    "The reference is provisional, not exact equilibrium ground truth.",
+    "Block SEM estimates are diagnostic and use few blocks per window.",
+    "Reference equilibrium bias is not quantified.",
+    "Agreement of means does not establish equilibrium or distributional agreement.",
+    "No new simulation or sampling-efficiency comparison was performed."
+  ]
+}

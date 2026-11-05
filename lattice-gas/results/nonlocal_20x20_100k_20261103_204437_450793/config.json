@@ -1,0 +1,85 @@
+{
+  "source_directory": "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\nonlocal_20x20_20261103_204046_897070",
+  "model_config": {
+    "L": 20,
+    "N": 200,
+    "temperature": 0.4,
+    "epsilon": 1.0,
+    "sweeps": 20000,
+    "initial_exclusion": 5000,
+    "record_every": 10,
+    "configuration_every": 100,
+    "analysis_windows": [
+      [
+        5001,
+        12500
+      ],
+      [
+        12501,
+        20000
+      ]
+    ],
+    "seeds": {
+      "random": [
+        842,
+        843,
+        844
+      ],
+      "vertical": [
+        845,
+        846,
+        847
+      ],
+      "horizontal": [
+        848,
+        849,
+        850
+      ]
+    },
+    "rng_streams": {
+      "initialization": 0,
+      "updates": 1
+    },
+    "status": "Candidate data; equilibrium assessment pending",
+    "python_version": "3.14.2",
+    "numpy_version": "2.4.1"
+  },
+  "start_sweep": 20000,
+  "end_sweep": 100000,
+  "checkpoint_interval": 20000,
+  "record_every": 10,
+  "configuration_every": 100,
+  "analysis_windows": [
+    [
+      20001,
+      60000
+    ],
+    [
+      60001,
+      100000
+    ]
+  ],
+  "block_lengths_sweeps": [
+    1000,
+    2000,
+    4000
+  ],
+  "mean_screen": {
+    "U": {
+      "chain_range": 1.0,
+      "window_change": 1.0,
+      "sem": 0.25
+    },
+    "S_low": {
+      "chain_range": 0.5,
+      "window_change": 0.5,
+      "sem": 0.125
+    },
+    "abs_D": {
+      "chain_range": 2.0,
+      "window_change": 2.0,
+      "sem": 0.5
+    }
+  },
+  "status": "Continuation data; reference assessment pending"
+}

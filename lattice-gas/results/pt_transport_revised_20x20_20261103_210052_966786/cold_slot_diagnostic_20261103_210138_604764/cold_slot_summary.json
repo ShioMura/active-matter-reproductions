@@ -1,0 +1,110 @@
+{
+  "source_directory": "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\pt_transport_revised_20x20_20261103_210052_966786",
+  "temperature": 0.4,
+  "windows": [
+    [
+      1,
+      750
+    ],
+    [
+      751,
+      1500
+    ]
+  ],
+  "plot_block_cycles": 25,
+  "rows": [
+    {
+      "initial": "random",
+      "seed": 1342,
+      "window_start": 1,
+      "window_end": 750,
+      "records": 750,
+      "mean_U": -359.864,
+      "mean_S_low": 16.130267724769496,
+      "mean_D": 29.900122533764563,
+      "fraction_D_positive": 0.9786666666666667,
+      "fraction_D_negative": 0.021333333333333333,
+      "fraction_D_zero": 0.0,
+      "distinct_replica_ids_at_cold_slot": 6
+    },
+    {
+      "initial": "random",
+      "seed": 1342,
+      "window_start": 751,
+      "window_end": 1500,
+      "records": 750,
+      "mean_U": -361.5373333333333,
+      "mean_S_low": 16.83373201779196,
+      "mean_D": 23.515302744445886,
+      "fraction_D_positive": 0.8546666666666667,
+      "fraction_D_negative": 0.14533333333333334,
+      "fraction_D_zero": 0.0,
+      "distinct_replica_ids_at_cold_slot": 3
+    },
+    {
+      "initial": "vertical",
+      "seed": 1343,
+      "window_start": 1,
+      "window_end": 750,
+      "records": 750,
+      "mean_U": -360.09866666666665,
+      "mean_S_low": 16.338431818102766,
+      "mean_D": -21.295981321908474,
+      "fraction_D_positive": 0.18133333333333335,
+      "fraction_D_negative": 0.8186666666666667,
+      "fraction_D_zero": 0.0,
+      "distinct_replica_ids_at_cold_slot": 7
+    },
+    {
+      "initial": "vertical",
+      "seed": 1343,
+      "window_start": 751,
+      "window_end": 1500,
+      "records": 750,
+      "mean_U": -359.83866666666665,
+      "mean_S_low": 16.480248130175262,
+      "mean_D": -11.175641433343888,
+      "fraction_D_positive": 0.31333333333333335,
+      "fraction_D_negative": 0.6866666666666666,
+      "fraction_D_zero": 0.0,
+      "distinct_replica_ids_at_cold_slot": 5
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1344,
+      "window_start": 1,
+      "window_end": 750,
+      "records": 750,
+      "mean_U": -362.18266666666665,
+      "mean_S_low": 17.22960802747509,
+      "mean_D": 31.52609806517103,
+      "fraction_D_positive": 1.0,
+      "fraction_D_negative": 0.0,
+      "fraction_D_zero": 0.0,
+      "distinct_replica_ids_at_cold_slot": 5
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1344,
+      "window_start": 751,
+      "window_end": 1500,
+      "records": 750,
+      "mean_U": -362.1786666666667,
+      "mean_S_low": 17.36223068644244,
+      "mean_D": 33.32818899616459,
+      "fraction_D_positive": 0.9986666666666667,
+      "fraction_D_negative": 0.0013333333333333333,
+      "fraction_D_zero": 0.0,
+      "distinct_replica_ids_at_cold_slot": 4
+    }
+  ],
+  "scope": "Descriptive cold-slot diagnostic; no new simulation.",
+  "limitations": [
+    "All cycles include the initial transient; burn-in is not established.",
+    "One ensemble per initialization cannot isolate initialization effects.",
+    "Records and plotting blocks are not assumed independent.",
+    "Replica-ID coverage does not establish configuration mixing.",
+    "A cold-slot D sign change can result from replica exchange.",
+    "These diagnostics do not qualify the joint equilibrium distribution."
+  ]
+}

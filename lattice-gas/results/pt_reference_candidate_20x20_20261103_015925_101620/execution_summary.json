@@ -1,0 +1,125 @@
+{
+  "status": "FIXED_BUDGET_EXECUTION_COMPLETE_ASSESSMENT_PENDING",
+  "runs": [
+    {
+      "initial": "random",
+      "seed": 1442,
+      "completed_cycles": 25000,
+      "segment_files": [
+        "random_seed_1442_000000_005000.npz",
+        "random_seed_1442_005000_010000.npz",
+        "random_seed_1442_010000_015000.npz",
+        "random_seed_1442_015000_020000.npz",
+        "random_seed_1442_020000_025000.npz"
+      ],
+      "recorded_simulation_seconds": 256.7175911999657
+    },
+    {
+      "initial": "random",
+      "seed": 1443,
+      "completed_cycles": 25000,
+      "segment_files": [
+        "random_seed_1443_000000_005000.npz",
+        "random_seed_1443_005000_010000.npz",
+        "random_seed_1443_010000_015000.npz",
+        "random_seed_1443_015000_020000.npz",
+        "random_seed_1443_020000_025000.npz"
+      ],
+      "recorded_simulation_seconds": 277.7745048000652
+    },
+    {
+      "initial": "random",
+      "seed": 1444,
+      "completed_cycles": 25000,
+      "segment_files": [
+        "random_seed_1444_000000_005000.npz",
+        "random_seed_1444_005000_010000.npz",
+        "random_seed_1444_010000_015000.npz",
+        "random_seed_1444_015000_020000.npz",
+        "random_seed_1444_020000_025000.npz"
+      ],
+      "recorded_simulation_seconds": 294.8998926000786
+    },
+    {
+      "initial": "vertical",
+      "seed": 1445,
+      "completed_cycles": 25000,
+      "segment_files": [
+        "vertical_seed_1445_000000_005000.npz",
+        "vertical_seed_1445_005000_010000.npz",
+        "vertical_seed_1445_010000_015000.npz",
+        "vertical_seed_1445_015000_020000.npz",
+        "vertical_seed_1445_020000_025000.npz"
+      ],
+      "recorded_simulation_seconds": 275.42878259997815
+    },
+    {
+      "initial": "vertical",
+      "seed": 1446,
+      "completed_cycles": 25000,
+      "segment_files": [
+        "vertical_seed_1446_000000_005000.npz",
+        "vertical_seed_1446_005000_010000.npz",
+        "vertical_seed_1446_010000_015000.npz",
+        "vertical_seed_1446_015000_020000.npz",
+        "vertical_seed_1446_020000_025000.npz"
+      ],
+      "recorded_simulation_seconds": 291.82447839999804
+    },
+    {
+      "initial": "vertical",
+      "seed": 1447,
+      "completed_cycles": 25000,
+      "segment_files": [
+        "vertical_seed_1447_000000_005000.npz",
+        "vertical_seed_1447_005000_010000.npz",
+        "vertical_seed_1447_010000_015000.npz",
+        "vertical_seed_1447_015000_020000.npz",
+        "vertical_seed_1447_020000_025000.npz"
+      ],
+      "recorded_simulation_seconds": 272.9117189000244
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1448,
+      "completed_cycles": 25000,
+      "segment_files": [
+        "horizontal_seed_1448_000000_005000.npz",
+        "horizontal_seed_1448_005000_010000.npz",
+        "horizontal_seed_1448_010000_015000.npz",
+        "horizontal_seed_1448_015000_020000.npz",
+        "horizontal_seed_1448_020000_025000.npz"
+      ],
+      "recorded_simulation_seconds": 275.2488167001284
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1449,
+      "completed_cycles": 25000,
+      "segment_files": [
+        "horizontal_seed_1449_000000_005000.npz",
+        "horizontal_seed_1449_005000_010000.npz",
+        "horizontal_seed_1449_010000_015000.npz",
+        "horizontal_seed_1449_015000_020000.npz",
+        "horizontal_seed_1449_020000_025000.npz"
+      ],
+      "recorded_simulation_seconds": 298.9398478998919
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1450,
+      "completed_cycles": 25000,
+      "segment_files": [
+        "horizontal_seed_1450_000000_005000.npz",
+        "horizontal_seed_1450_005000_010000.npz",
+        "horizontal_seed_1450_010000_015000.npz",
+        "horizontal_seed_1450_015000_020000.npz",
+        "horizontal_seed_1450_020000_025000.npz"
+      ],
+      "recorded_simulation_seconds": 288.02798109996365
+    }
+  ],
+  "within_slot_proposals": 720000000,
+  "replica_exchange_attempts": 1575000,
+  "scope": "Execution and recorded bookkeeping checks completed. Reference assessment remains pending."
+}

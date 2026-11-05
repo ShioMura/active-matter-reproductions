@@ -1,0 +1,74 @@
+[
+  {
+    "initial": "random",
+    "seed": 542,
+    "observable": "U",
+    "total_variation_distance": 0.008435944365250468
+  },
+  {
+    "initial": "random",
+    "seed": 543,
+    "observable": "U",
+    "total_variation_distance": 0.17479373096729284
+  },
+  {
+    "initial": "random",
+    "seed": 544,
+    "observable": "U",
+    "total_variation_distance": 0.06320730065489094
+  },
+  {
+    "initial": "stripe",
+    "seed": 545,
+    "observable": "U",
+    "total_variation_distance": 0.016328147409027292
+  },
+  {
+    "initial": "stripe",
+    "seed": 546,
+    "observable": "U",
+    "total_variation_distance": 0.0026838796855948605
+  },
+  {
+    "initial": "stripe",
+    "seed": 547,
+    "observable": "U",
+    "total_variation_distance": 0.054693730967292804
+  },
+  {
+    "initial": "random",
+    "seed": 542,
+    "observable": "S_low",
+    "total_variation_distance": 0.023398792436304112
+  },
+  {
+    "initial": "random",
+    "seed": 543,
+    "observable": "S_low",
+    "total_variation_distance": 0.17479373096729575
+  },
+  {
+    "initial": "random",
+    "seed": 544,
+    "observable": "S_low",
+    "total_variation_distance": 0.06363971079273514
+  },
+  {
+    "initial": "stripe",
+    "seed": 545,
+    "observable": "S_low",
+    "total_variation_distance": 0.017006724770044723
+  },
+  {
+    "initial": "stripe",
+    "seed": 546,
+    "observable": "S_low",
+    "total_variation_distance": 0.008418100362392383
+  },
+  {
+    "initial": "stripe",
+    "seed": 547,
+    "observable": "S_low",
+    "total_variation_distance": 0.0557840140948043
+  }
+]

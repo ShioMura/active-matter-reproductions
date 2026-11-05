@@ -1,0 +1,38 @@
+{
+  "L": 4,
+  "N": 8,
+  "temperature": 0.4,
+  "epsilon": 1.0,
+  "initial_exclusion": 2000,
+  "measurement_sweeps": 20000,
+  "seeds": {
+    "random": [
+      542,
+      543,
+      544
+    ],
+    "stripe": [
+      545,
+      546,
+      547
+    ]
+  },
+  "sem_block_lengths": [
+    500,
+    1000
+  ],
+  "measurement_windows": [
+    [
+      2001,
+      12000
+    ],
+    [
+      12001,
+      22000
+    ]
+  ],
+  "sweep_definition": "L**2 uniform bond proposals with replacement",
+  "python_version": "3.14.2",
+  "numpy_version": "2.4.1",
+  "status": "Fixed-budget sampling diagnostic; assessment pending"
+}

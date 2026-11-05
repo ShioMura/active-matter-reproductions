@@ -1,0 +1,9 @@
+{
+  "states": 12870,
+  "bond_proposals_checked": 411840,
+  "max_delta_error": 0.0,
+  "max_row_error": 2.220446049250313e-16,
+  "max_detailed_balance_relative_error": 8.94833115719821e-17,
+  "stationarity_l1_error": 2.3177474514325966e-16,
+  "tolerance": 1e-12
+}

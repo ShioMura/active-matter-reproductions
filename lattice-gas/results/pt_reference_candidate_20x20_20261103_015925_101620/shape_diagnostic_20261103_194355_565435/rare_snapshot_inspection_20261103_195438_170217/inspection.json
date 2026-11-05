@@ -1,0 +1,210 @@
+[
+  {
+    "initial": "horizontal",
+    "seed": 1448,
+    "cycle": 7200,
+    "f_max": 0.995,
+    "n_clusters": 2,
+    "wrapping_class": "none",
+    "components": [
+      {
+        "size": 199,
+        "wrap_axis0": false,
+        "wrap_axis1": false,
+        "winding_rank": 0
+      },
+      {
+        "size": 1,
+        "wrap_axis0": false,
+        "wrap_axis1": false,
+        "winding_rank": 0
+      }
+    ],
+    "U": -362.0,
+    "S_low": 13.571171599543941,
+    "D": -13.588401654649351,
+    "source_file": "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\pt_reference_candidate_20x20_20261103_015925_101620\\horizontal_seed_1448_005000_010000.npz"
+  },
+  {
+    "initial": "horizontal",
+    "seed": 1448,
+    "cycle": 16200,
+    "f_max": 0.99,
+    "n_clusters": 3,
+    "wrapping_class": "none",
+    "components": [
+      {
+        "size": 198,
+        "wrap_axis0": false,
+        "wrap_axis1": false,
+        "winding_rank": 0
+      },
+      {
+        "size": 1,
+        "wrap_axis0": false,
+        "wrap_axis1": false,
+        "winding_rank": 0
+      },
+      {
+        "size": 1,
+        "wrap_axis0": false,
+        "wrap_axis1": false,
+        "winding_rank": 0
+      }
+    ],
+    "U": -359.0,
+    "S_low": 9.569249401040391,
+    "D": -2.3415722913263313,
+    "source_file": "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\pt_reference_candidate_20x20_20261103_015925_101620\\horizontal_seed_1448_015000_020000.npz"
+  },
+  {
+    "initial": "random",
+    "seed": 1443,
+    "cycle": 16400,
+    "f_max": 0.995,
+    "n_clusters": 2,
+    "wrapping_class": "none",
+    "components": [
+      {
+        "size": 199,
+        "wrap_axis0": false,
+        "wrap_axis1": false,
+        "winding_rank": 0
+      },
+      {
+        "size": 1,
+        "wrap_axis0": false,
+        "wrap_axis1": false,
+        "winding_rank": 0
+      }
+    ],
+    "U": -351.0,
+    "S_low": 11.103262128961907,
+    "D": -6.74497534877808,
+    "source_file": "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\pt_reference_candidate_20x20_20261103_015925_101620\\random_seed_1443_015000_020000.npz"
+  },
+  {
+    "initial": "vertical",
+    "seed": 1445,
+    "cycle": 15300,
+    "f_max": 1.0,
+    "n_clusters": 1,
+    "wrapping_class": "none",
+    "components": [
+      {
+        "size": 200,
+        "wrap_axis0": false,
+        "wrap_axis1": false,
+        "winding_rank": 0
+      }
+    ],
+    "U": -358.0,
+    "S_low": 14.072168228358782,
+    "D": -2.8126610795676967,
+    "source_file": "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\pt_reference_candidate_20x20_20261103_015925_101620\\vertical_seed_1445_015000_020000.npz"
+  },
+  {
+    "initial": "vertical",
+    "seed": 1447,
+    "cycle": 13400,
+    "f_max": 1.0,
+    "n_clusters": 1,
+    "wrapping_class": "none",
+    "components": [
+      {
+        "size": 200,
+        "wrap_axis0": false,
+        "wrap_axis1": false,
+        "winding_rank": 0
+      }
+    ],
+    "U": -357.0,
+    "S_low": 13.01315747844545,
+    "D": 7.409062150986479,
+    "source_file": "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\pt_reference_candidate_20x20_20261103_015925_101620\\vertical_seed_1447_010000_015000.npz"
+  },
+  {
+    "initial": "random",
+    "seed": 1443,
+    "cycle": 8500,
+    "f_max": 0.995,
+    "n_clusters": 2,
+    "wrapping_class": "rank2_present",
+    "components": [
+      {
+        "size": 199,
+        "wrap_axis0": true,
+        "wrap_axis1": true,
+        "winding_rank": 2
+      },
+      {
+        "size": 1,
+        "wrap_axis0": false,
+        "wrap_axis1": false,
+        "winding_rank": 0
+      }
+    ],
+    "U": -358.0,
+    "S_low": 13.863847315275677,
+    "D": 0.6172783718545105,
+    "source_file": "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\pt_reference_candidate_20x20_20261103_015925_101620\\random_seed_1443_005000_010000.npz"
+  },
+  {
+    "initial": "random",
+    "seed": 1443,
+    "cycle": 14500,
+    "f_max": 0.985,
+    "n_clusters": 4,
+    "wrapping_class": "rank2_present",
+    "components": [
+      {
+        "size": 197,
+        "wrap_axis0": true,
+        "wrap_axis1": true,
+        "winding_rank": 2
+      },
+      {
+        "size": 1,
+        "wrap_axis0": false,
+        "wrap_axis1": false,
+        "winding_rank": 0
+      },
+      {
+        "size": 1,
+        "wrap_axis0": false,
+        "wrap_axis1": false,
+        "winding_rank": 0
+      },
+      {
+        "size": 1,
+        "wrap_axis0": false,
+        "wrap_axis1": false,
+        "winding_rank": 0
+      }
+    ],
+    "U": -348.0,
+    "S_low": 10.15379267115172,
+    "D": -3.1839168529544093,
+    "source_file": "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\pt_reference_candidate_20x20_20261103_015925_101620\\random_seed_1443_010000_015000.npz"
+  },
+  {
+    "initial": "vertical",
+    "seed": 1446,
+    "cycle": 15300,
+    "f_max": 1.0,
+    "n_clusters": 1,
+    "wrapping_class": "rank2_present",
+    "components": [
+      {
+        "size": 200,
+        "wrap_axis0": true,
+        "wrap_axis1": true,
+        "winding_rank": 2
+      }
+    ],
+    "U": -350.0,
+    "S_low": 11.1409668512023,
+    "D": 12.092571748170093,
+    "source_file": "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\pt_reference_candidate_20x20_20261103_015925_101620\\vertical_seed_1446_015000_020000.npz"
+  }
+]

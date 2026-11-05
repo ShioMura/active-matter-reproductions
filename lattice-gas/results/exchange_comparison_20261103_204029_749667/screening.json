@@ -1,0 +1,20 @@
+{
+  "aggregate": {
+    "local": {
+      "total_seconds": 9.028214499994647,
+      "U_median_tv": 0.036260298057883056,
+      "U_max_tv": 0.10260730065489093,
+      "S_low_median_tv": 0.03854067479114659,
+      "S_low_max_tv": 0.1026652605209716
+    },
+    "nonlocal": {
+      "total_seconds": 7.95842579996679,
+      "U_median_tv": 0.010162101694196485,
+      "U_max_tv": 0.016780534942384705,
+      "S_low_median_tv": 0.010724703605013909,
+      "S_low_max_tv": 0.017675729984307165
+    }
+  },
+  "decision": "Improvement at the fixed proposal budget",
+  "scope": "Descriptive small-system screen; not equilibrium qualification"
+}

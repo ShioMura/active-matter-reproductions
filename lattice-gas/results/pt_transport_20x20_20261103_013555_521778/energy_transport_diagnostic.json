@@ -1,0 +1,433 @@
+{
+  "windows": [
+    [
+      1,
+      1000
+    ],
+    [
+      1001,
+      2000
+    ]
+  ],
+  "temperature_pairs": [
+    [
+      0.5,
+      0.6
+    ],
+    [
+      0.6,
+      0.8
+    ]
+  ],
+  "histogram_edges": [
+    -380.5,
+    -379.5,
+    -378.5,
+    -377.5,
+    -376.5,
+    -375.5,
+    -374.5,
+    -373.5,
+    -372.5,
+    -371.5,
+    -370.5,
+    -369.5,
+    -368.5,
+    -367.5,
+    -366.5,
+    -365.5,
+    -364.5,
+    -363.5,
+    -362.5,
+    -361.5,
+    -360.5,
+    -359.5,
+    -358.5,
+    -357.5,
+    -356.5,
+    -355.5,
+    -354.5,
+    -353.5,
+    -352.5,
+    -351.5,
+    -350.5,
+    -349.5,
+    -348.5,
+    -347.5,
+    -346.5,
+    -345.5,
+    -344.5,
+    -343.5,
+    -342.5,
+    -341.5,
+    -340.5,
+    -339.5,
+    -338.5,
+    -337.5,
+    -336.5,
+    -335.5,
+    -334.5,
+    -333.5,
+    -332.5,
+    -331.5,
+    -330.5,
+    -329.5,
+    -328.5,
+    -327.5,
+    -326.5,
+    -325.5,
+    -324.5,
+    -323.5,
+    -322.5,
+    -321.5,
+    -320.5,
+    -319.5,
+    -318.5,
+    -317.5,
+    -316.5,
+    -315.5,
+    -314.5,
+    -313.5,
+    -312.5,
+    -311.5,
+    -310.5,
+    -309.5,
+    -308.5,
+    -307.5,
+    -306.5,
+    -305.5,
+    -304.5,
+    -303.5,
+    -302.5,
+    -301.5,
+    -300.5,
+    -299.5,
+    -298.5,
+    -297.5,
+    -296.5,
+    -295.5,
+    -294.5,
+    -293.5,
+    -292.5,
+    -291.5,
+    -290.5,
+    -289.5,
+    -288.5,
+    -287.5,
+    -286.5,
+    -285.5,
+    -284.5,
+    -283.5,
+    -282.5,
+    -281.5,
+    -280.5,
+    -279.5,
+    -278.5,
+    -277.5,
+    -276.5,
+    -275.5,
+    -274.5,
+    -273.5,
+    -272.5,
+    -271.5,
+    -270.5,
+    -269.5,
+    -268.5,
+    -267.5,
+    -266.5,
+    -265.5,
+    -264.5,
+    -263.5,
+    -262.5,
+    -261.5,
+    -260.5,
+    -259.5,
+    -258.5,
+    -257.5,
+    -256.5,
+    -255.5,
+    -254.5,
+    -253.5,
+    -252.5,
+    -251.5,
+    -250.5,
+    -249.5,
+    -248.5,
+    -247.5,
+    -246.5,
+    -245.5,
+    -244.5,
+    -243.5,
+    -242.5,
+    -241.5,
+    -240.5,
+    -239.5,
+    -238.5,
+    -237.5,
+    -236.5,
+    -235.5,
+    -234.5,
+    -233.5,
+    -232.5,
+    -231.5,
+    -230.5,
+    -229.5,
+    -228.5,
+    -227.5,
+    -226.5,
+    -225.5,
+    -224.5,
+    -223.5,
+    -222.5,
+    -221.5,
+    -220.5
+  ],
+  "rows": [
+    {
+      "initial": "random",
+      "seed": 1242,
+      "temperature_pair": [
+        0.5,
+        0.6
+      ],
+      "window": [
+        1,
+        1000
+      ],
+      "mean_U": [
+        -340.046,
+        -308.736
+      ],
+      "empirical_energy_overlap": 0.125,
+      "accepted_exchanges": 35,
+      "attempted_exchanges": 1000,
+      "exchange_acceptance": 0.035
+    },
+    {
+      "initial": "random",
+      "seed": 1242,
+      "temperature_pair": [
+        0.5,
+        0.6
+      ],
+      "window": [
+        1001,
+        2000
+      ],
+      "mean_U": [
+        -336.404,
+        -310.989
+      ],
+      "empirical_energy_overlap": 0.14100000000000001,
+      "accepted_exchanges": 38,
+      "attempted_exchanges": 1000,
+      "exchange_acceptance": 0.038
+    },
+    {
+      "initial": "random",
+      "seed": 1242,
+      "temperature_pair": [
+        0.6,
+        0.8
+      ],
+      "window": [
+        1,
+        1000
+      ],
+      "mean_U": [
+        -308.736,
+        -272.807
+      ],
+      "empirical_energy_overlap": 0.05500000000000001,
+      "accepted_exchanges": 8,
+      "attempted_exchanges": 1000,
+      "exchange_acceptance": 0.008
+    },
+    {
+      "initial": "random",
+      "seed": 1242,
+      "temperature_pair": [
+        0.6,
+        0.8
+      ],
+      "window": [
+        1001,
+        2000
+      ],
+      "mean_U": [
+        -310.989,
+        -272.822
+      ],
+      "empirical_energy_overlap": 0.035,
+      "accepted_exchanges": 3,
+      "attempted_exchanges": 1000,
+      "exchange_acceptance": 0.003
+    },
+    {
+      "initial": "vertical",
+      "seed": 1243,
+      "temperature_pair": [
+        0.5,
+        0.6
+      ],
+      "window": [
+        1,
+        1000
+      ],
+      "mean_U": [
+        -342.589,
+        -313.112
+      ],
+      "empirical_energy_overlap": 0.12100000000000001,
+      "accepted_exchanges": 24,
+      "attempted_exchanges": 1000,
+      "exchange_acceptance": 0.024
+    },
+    {
+      "initial": "vertical",
+      "seed": 1243,
+      "temperature_pair": [
+        0.5,
+        0.6
+      ],
+      "window": [
+        1001,
+        2000
+      ],
+      "mean_U": [
+        -341.236,
+        -309.787
+      ],
+      "empirical_energy_overlap": 0.06,
+      "accepted_exchanges": 21,
+      "attempted_exchanges": 1000,
+      "exchange_acceptance": 0.021
+    },
+    {
+      "initial": "vertical",
+      "seed": 1243,
+      "temperature_pair": [
+        0.6,
+        0.8
+      ],
+      "window": [
+        1,
+        1000
+      ],
+      "mean_U": [
+        -313.112,
+        -273.673
+      ],
+      "empirical_energy_overlap": 0.065,
+      "accepted_exchanges": 4,
+      "attempted_exchanges": 1000,
+      "exchange_acceptance": 0.004
+    },
+    {
+      "initial": "vertical",
+      "seed": 1243,
+      "temperature_pair": [
+        0.6,
+        0.8
+      ],
+      "window": [
+        1001,
+        2000
+      ],
+      "mean_U": [
+        -309.787,
+        -272.293
+      ],
+      "empirical_energy_overlap": 0.04400000000000001,
+      "accepted_exchanges": 9,
+      "attempted_exchanges": 1000,
+      "exchange_acceptance": 0.009
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1244,
+      "temperature_pair": [
+        0.5,
+        0.6
+      ],
+      "window": [
+        1,
+        1000
+      ],
+      "mean_U": [
+        -341.638,
+        -311.297
+      ],
+      "empirical_energy_overlap": 0.08600000000000002,
+      "accepted_exchanges": 25,
+      "attempted_exchanges": 1000,
+      "exchange_acceptance": 0.025
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1244,
+      "temperature_pair": [
+        0.5,
+        0.6
+      ],
+      "window": [
+        1001,
+        2000
+      ],
+      "mean_U": [
+        -339.911,
+        -312.23
+      ],
+      "empirical_energy_overlap": 0.091,
+      "accepted_exchanges": 26,
+      "attempted_exchanges": 1000,
+      "exchange_acceptance": 0.026
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1244,
+      "temperature_pair": [
+        0.6,
+        0.8
+      ],
+      "window": [
+        1,
+        1000
+      ],
+      "mean_U": [
+        -311.297,
+        -274.125
+      ],
+      "empirical_energy_overlap": 0.05600000000000001,
+      "accepted_exchanges": 8,
+      "attempted_exchanges": 1000,
+      "exchange_acceptance": 0.008
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1244,
+      "temperature_pair": [
+        0.6,
+        0.8
+      ],
+      "window": [
+        1001,
+        2000
+      ],
+      "mean_U": [
+        -312.23,
+        -272.688
+      ],
+      "empirical_energy_overlap": 0.03,
+      "accepted_exchanges": 1,
+      "attempted_exchanges": 1000,
+      "exchange_acceptance": 0.001
+    }
+  ],
+  "scope": "Post-pilot descriptive analysis of saved data; no equilibrium or transport qualification threshold.",
+  "limitations": [
+    "Both windows may contain transient behavior.",
+    "Histogram overlap is not the replica-exchange acceptance probability.",
+    "Energies were recorded after the complete exchange cycle, not immediately before each edge proposal."
+  ]
+}

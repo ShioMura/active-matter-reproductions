@@ -1,0 +1,22 @@
+{
+  "L": 20,
+  "N": 200,
+  "temperature": 0.4,
+  "epsilon": 1.0,
+  "seed": 343,
+  "sweeps": 2000,
+  "snapshot_sweeps": [
+    0,
+    20,
+    100,
+    500,
+    1000,
+    2000
+  ],
+  "boundary": "periodic",
+  "update": "uniform nearest-neighbor bond proposal; Metropolis exchange",
+  "sweep_definition": "L**2 attempts, including equal-occupation proposals",
+  "status": "Single finite-time trajectory; equilibrium not established",
+  "python_version": "3.14.2",
+  "numpy_version": "2.4.1"
+}

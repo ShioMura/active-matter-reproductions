@@ -1,0 +1,314 @@
+[
+  {
+    "initial": "random",
+    "seed": 442,
+    "observable": "boundary",
+    "window": [
+      5001,
+      7500
+    ],
+    "recorded_points": 250,
+    "mean": 85.024,
+    "sem_block_250": 1.7014837968993741,
+    "sem_block_500": 1.9356280634460734
+  },
+  {
+    "initial": "random",
+    "seed": 442,
+    "observable": "boundary",
+    "window": [
+      7501,
+      10000
+    ],
+    "recorded_points": 250,
+    "mean": 84.6,
+    "sem_block_250": 1.9796385753184567,
+    "sem_block_500": 2.6100421452535985
+  },
+  {
+    "initial": "random",
+    "seed": 442,
+    "observable": "S_low",
+    "window": [
+      5001,
+      7500
+    ],
+    "recorded_points": 250,
+    "mean": 14.029878021347756,
+    "sem_block_250": 0.2510323587371092,
+    "sem_block_500": 0.36447745316170194
+  },
+  {
+    "initial": "random",
+    "seed": 442,
+    "observable": "S_low",
+    "window": [
+      7501,
+      10000
+    ],
+    "recorded_points": 250,
+    "mean": 15.138976845934835,
+    "sem_block_250": 0.3759131797871902,
+    "sem_block_500": 0.5397111291207208
+  },
+  {
+    "initial": "random",
+    "seed": 443,
+    "observable": "boundary",
+    "window": [
+      5001,
+      7500
+    ],
+    "recorded_points": 250,
+    "mean": 97.12,
+    "sem_block_250": 2.0770235113418107,
+    "sem_block_500": 2.3035971870099172
+  },
+  {
+    "initial": "random",
+    "seed": 443,
+    "observable": "boundary",
+    "window": [
+      7501,
+      10000
+    ],
+    "recorded_points": 250,
+    "mean": 98.328,
+    "sem_block_250": 2.6358337496047723,
+    "sem_block_500": 1.9468703089831116
+  },
+  {
+    "initial": "random",
+    "seed": 443,
+    "observable": "S_low",
+    "window": [
+      5001,
+      7500
+    ],
+    "recorded_points": 250,
+    "mean": 8.606311960965185,
+    "sem_block_250": 0.33279072903167445,
+    "sem_block_500": 0.398205466293519
+  },
+  {
+    "initial": "random",
+    "seed": 443,
+    "observable": "S_low",
+    "window": [
+      7501,
+      10000
+    ],
+    "recorded_points": 250,
+    "mean": 8.17786652189493,
+    "sem_block_250": 0.2767310192631421,
+    "sem_block_500": 0.3318593893241398
+  },
+  {
+    "initial": "random",
+    "seed": 444,
+    "observable": "boundary",
+    "window": [
+      5001,
+      7500
+    ],
+    "recorded_points": 250,
+    "mean": 83.328,
+    "sem_block_250": 1.2173676519441445,
+    "sem_block_500": 1.4127646654698014
+  },
+  {
+    "initial": "random",
+    "seed": 444,
+    "observable": "boundary",
+    "window": [
+      7501,
+      10000
+    ],
+    "recorded_points": 250,
+    "mean": 78.04,
+    "sem_block_250": 1.5442394748080865,
+    "sem_block_500": 1.1247044056106457
+  },
+  {
+    "initial": "random",
+    "seed": 444,
+    "observable": "S_low",
+    "window": [
+      5001,
+      7500
+    ],
+    "recorded_points": 250,
+    "mean": 14.718339416359896,
+    "sem_block_250": 0.17607587114472265,
+    "sem_block_500": 0.2349086558985798
+  },
+  {
+    "initial": "random",
+    "seed": 444,
+    "observable": "S_low",
+    "window": [
+      7501,
+      10000
+    ],
+    "recorded_points": 250,
+    "mean": 15.583388515600845,
+    "sem_block_250": 0.35906938903542995,
+    "sem_block_500": 0.4758286258981962
+  },
+  {
+    "initial": "stripe",
+    "seed": 445,
+    "observable": "boundary",
+    "window": [
+      5001,
+      7500
+    ],
+    "recorded_points": 250,
+    "mean": 84.104,
+    "sem_block_250": 1.8971623253925547,
+    "sem_block_500": 2.5456346949238418
+  },
+  {
+    "initial": "stripe",
+    "seed": 445,
+    "observable": "boundary",
+    "window": [
+      7501,
+      10000
+    ],
+    "recorded_points": 250,
+    "mean": 77.608,
+    "sem_block_250": 1.8520359967704005,
+    "sem_block_500": 2.184249070046729
+  },
+  {
+    "initial": "stripe",
+    "seed": 445,
+    "observable": "S_low",
+    "window": [
+      5001,
+      7500
+    ],
+    "recorded_points": 250,
+    "mean": 14.918856724936035,
+    "sem_block_250": 0.45931038856081846,
+    "sem_block_500": 0.6713007263938772
+  },
+  {
+    "initial": "stripe",
+    "seed": 445,
+    "observable": "S_low",
+    "window": [
+      7501,
+      10000
+    ],
+    "recorded_points": 250,
+    "mean": 16.71175257703293,
+    "sem_block_250": 0.4319390744321113,
+    "sem_block_500": 0.6231851450857435
+  },
+  {
+    "initial": "stripe",
+    "seed": 446,
+    "observable": "boundary",
+    "window": [
+      5001,
+      7500
+    ],
+    "recorded_points": 250,
+    "mean": 74.28,
+    "sem_block_250": 1.6276827427699514,
+    "sem_block_500": 2.097503277709
+  },
+  {
+    "initial": "stripe",
+    "seed": 446,
+    "observable": "boundary",
+    "window": [
+      7501,
+      10000
+    ],
+    "recorded_points": 250,
+    "mean": 73.392,
+    "sem_block_250": 2.0035240064557356,
+    "sem_block_500": 2.913290922650878
+  },
+  {
+    "initial": "stripe",
+    "seed": 446,
+    "observable": "S_low",
+    "window": [
+      5001,
+      7500
+    ],
+    "recorded_points": 250,
+    "mean": 17.1575292935781,
+    "sem_block_250": 0.2836786228834624,
+    "sem_block_500": 0.407196326692396
+  },
+  {
+    "initial": "stripe",
+    "seed": 446,
+    "observable": "S_low",
+    "window": [
+      7501,
+      10000
+    ],
+    "recorded_points": 250,
+    "mean": 17.67058905297421,
+    "sem_block_250": 0.22250624104858746,
+    "sem_block_500": 0.32420978218829816
+  },
+  {
+    "initial": "stripe",
+    "seed": 447,
+    "observable": "boundary",
+    "window": [
+      5001,
+      7500
+    ],
+    "recorded_points": 250,
+    "mean": 70.848,
+    "sem_block_250": 1.6063961044662818,
+    "sem_block_500": 2.3121730039077955
+  },
+  {
+    "initial": "stripe",
+    "seed": 447,
+    "observable": "boundary",
+    "window": [
+      7501,
+      10000
+    ],
+    "recorded_points": 250,
+    "mean": 73.008,
+    "sem_block_250": 0.9432011685979002,
+    "sem_block_500": 0.6309865291747506
+  },
+  {
+    "initial": "stripe",
+    "seed": 447,
+    "observable": "S_low",
+    "window": [
+      5001,
+      7500
+    ],
+    "recorded_points": 250,
+    "mean": 17.60875162279829,
+    "sem_block_250": 0.21277735294023348,
+    "sem_block_500": 0.30641423771564974
+  },
+  {
+    "initial": "stripe",
+    "seed": 447,
+    "observable": "S_low",
+    "window": [
+      7501,
+      10000
+    ],
+    "recorded_points": 250,
+    "mean": 18.0151032255095,
+    "sem_block_250": 0.07550031507457228,
+    "sem_block_500": 0.0383201494804081
+  }
+]

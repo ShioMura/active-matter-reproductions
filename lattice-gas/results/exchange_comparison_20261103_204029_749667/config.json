@@ -1,0 +1,29 @@
+{
+  "L": 4,
+  "N": 8,
+  "temperature": 0.4,
+  "epsilon": 1.0,
+  "initial_exclusion": 2000,
+  "measurement_sweeps": 20000,
+  "seeds": {
+    "random": [
+      742,
+      743,
+      744
+    ],
+    "stripe": [
+      745,
+      746,
+      747
+    ]
+  },
+  "rng_streams": {
+    "initialization": 0,
+    "local": 1,
+    "nonlocal": 2
+  },
+  "screen": "Lower median and maximum TV for both U and S_low",
+  "timing": "Simulation plus recording/checks; excludes file writing",
+  "python_version": "3.14.2",
+  "numpy_version": "2.4.1"
+}

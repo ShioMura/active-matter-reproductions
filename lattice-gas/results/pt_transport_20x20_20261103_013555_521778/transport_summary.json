@@ -1,0 +1,62 @@
+[
+  {
+    "initial": "random",
+    "seed": 1242,
+    "exchange_acceptance_by_edge": [
+      0.245,
+      0.25,
+      0.0365,
+      0.0055,
+      0.123
+    ],
+    "cold_hot_cold_round_trips_by_id": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "elapsed_seconds": 14.481852199998684
+  },
+  {
+    "initial": "vertical",
+    "seed": 1243,
+    "exchange_acceptance_by_edge": [
+      0.285,
+      0.2435,
+      0.0225,
+      0.0065,
+      0.1345
+    ],
+    "cold_hot_cold_round_trips_by_id": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "elapsed_seconds": 14.251236500014784
+  },
+  {
+    "initial": "horizontal",
+    "seed": 1244,
+    "exchange_acceptance_by_edge": [
+      0.268,
+      0.2255,
+      0.0255,
+      0.0045,
+      0.1345
+    ],
+    "cold_hot_cold_round_trips_by_id": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "elapsed_seconds": 14.531313200015575
+  }
+]

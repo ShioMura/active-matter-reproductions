@@ -1,0 +1,44 @@
+{
+  "L": 20,
+  "N": 200,
+  "epsilon": 1.0,
+  "temperatures": [
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.7,
+    0.8,
+    1.0
+  ],
+  "cycles": 1500,
+  "runs": [
+    [
+      "random",
+      1342
+    ],
+    [
+      "vertical",
+      1343
+    ],
+    [
+      "horizontal",
+      1344
+    ]
+  ],
+  "rng_streams": {
+    "initialization": 0,
+    "updates": 1
+  },
+  "check_interval": 100,
+  "snapshot_interval": 100,
+  "baseline_directory": "C:\\Users\\user\\Documents\\GitHub\\active-matter-reproductions\\lattice-gas\\results\\pt_transport_20x20_20261103_013555_521778",
+  "primary_rule": {
+    "improvement": "Both total trips and completion fraction increase.",
+    "no_improvement": "Neither primary metric increases.",
+    "mixed": "Only one primary metric increases."
+  },
+  "scope": "Exploratory transport comparison; no equilibrium qualification.",
+  "stopping": "Three fixed-budget runs; no automatic extension or tuning."
+}

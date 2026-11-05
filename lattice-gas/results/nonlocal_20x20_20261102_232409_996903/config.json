@@ -1,0 +1,44 @@
+{
+  "L": 20,
+  "N": 200,
+  "temperature": 0.4,
+  "epsilon": 1.0,
+  "sweeps": 20000,
+  "initial_exclusion": 5000,
+  "record_every": 10,
+  "configuration_every": 100,
+  "analysis_windows": [
+    [
+      5001,
+      12500
+    ],
+    [
+      12501,
+      20000
+    ]
+  ],
+  "seeds": {
+    "random": [
+      842,
+      843,
+      844
+    ],
+    "vertical": [
+      845,
+      846,
+      847
+    ],
+    "horizontal": [
+      848,
+      849,
+      850
+    ]
+  },
+  "rng_streams": {
+    "initialization": 0,
+    "updates": 1
+  },
+  "status": "Candidate data; equilibrium assessment pending",
+  "python_version": "3.14.2",
+  "numpy_version": "2.4.1"
+}

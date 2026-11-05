@@ -1,0 +1,20 @@
+{
+  "status": "IMPLEMENTATION_CHECKS_PASSED",
+  "checks": [
+    "20x20 initialization, generic FFT normalization, rotation invariants",
+    "9072 exhaustive 3x3 N=4 energy-difference checks",
+    "Continuous / checkpoint pause / mid-segment interrupt: 420 array-and-RNG comparisons identical",
+    "Completed campaign rerun does not alter trajectories",
+    "Concurrent lock, protocol modification, and missing segment rejected"
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.39"
+  },
+  "source_sha256": {
+    "pt_rotation_runner.py": "2f281d4f012aef28a0ffecbaf286d974d987cc4acddb45a9e19655fbef8fe958",
+    "pt_rotation_dependencies.py": "e28756f4811cce9da2d4997da34f48087b3a7e01c1c548e119c54fe1144c86e7"
+  },
+  "scope": "Small implementation tests only; no 20x20 production trajectory or equilibrium assessment."
+}

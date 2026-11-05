@@ -1,0 +1,44 @@
+{
+  "task": "PT_ROTATION_4X4_JOINT_VALIDATION_V1",
+  "L": 4,
+  "N": 8,
+  "epsilon": 1.0,
+  "temperatures": [
+    0.4,
+    0.5,
+    0.7,
+    1.0
+  ],
+  "excluded_cycles": 500,
+  "measurement_cycles": 5000,
+  "methods": [
+    "pt",
+    "pt_rotation"
+  ],
+  "seeds": {
+    "random": [
+      1642,
+      1643,
+      1644
+    ],
+    "stripe": [
+      1645,
+      1646,
+      1647
+    ]
+  },
+  "joint_observables": [
+    "U",
+    "S_low",
+    "D"
+  ],
+  "joint_tv_tolerance": 0.05,
+  "joint_key_decimals": 10,
+  "rotation": "Independent uniform k in {0,1,2,3} per slot after each PT cycle",
+  "rng_streams": {
+    "initialization": 0,
+    "updates": 1,
+    "rotation": 2
+  },
+  "stopping": "Fixed budget; no automatic extension or threshold changes"
+}

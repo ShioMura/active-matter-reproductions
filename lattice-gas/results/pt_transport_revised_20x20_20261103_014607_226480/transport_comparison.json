@@ -1,0 +1,135 @@
+{
+  "baseline": {
+    "total_round_trips": 2,
+    "replicas": 18,
+    "replicas_with_at_least_one_trip": 2,
+    "completion_fraction": 0.1111111111111111,
+    "replicas_with_repeated_trips": 0,
+    "total_run_seconds": 43.26440190002904
+  },
+  "revised": {
+    "total_round_trips": 4,
+    "replicas": 24,
+    "replicas_with_at_least_one_trip": 4,
+    "completion_fraction": 0.16666666666666666,
+    "replicas_with_repeated_trips": 0,
+    "total_run_seconds": 43.39490539999679
+  },
+  "baseline_runs": [
+    {
+      "initial": "random",
+      "seed": 1242,
+      "round_trips_by_id": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "elapsed_seconds": 14.481852199998684
+    },
+    {
+      "initial": "vertical",
+      "seed": 1243,
+      "round_trips_by_id": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "elapsed_seconds": 14.251236500014784
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1244,
+      "round_trips_by_id": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "elapsed_seconds": 14.531313200015575
+    }
+  ],
+  "revised_runs": [
+    {
+      "initial": "random",
+      "seed": 1342,
+      "round_trips_by_id": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "acceptance_by_edge": [
+        0.288,
+        0.19933333333333333,
+        0.308,
+        0.26,
+        0.12933333333333333,
+        0.23866666666666667,
+        0.13866666666666666
+      ],
+      "elapsed_seconds": 14.606118199997582
+    },
+    {
+      "initial": "vertical",
+      "seed": 1343,
+      "round_trips_by_id": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "acceptance_by_edge": [
+        0.31466666666666665,
+        0.29133333333333333,
+        0.222,
+        0.328,
+        0.082,
+        0.256,
+        0.108
+      ],
+      "elapsed_seconds": 14.392143600009149
+    },
+    {
+      "initial": "horizontal",
+      "seed": 1344,
+      "round_trips_by_id": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "acceptance_by_edge": [
+        0.30733333333333335,
+        0.23466666666666666,
+        0.2673333333333333,
+        0.272,
+        0.12,
+        0.212,
+        0.12533333333333332
+      ],
+      "elapsed_seconds": 14.396643599990057
+    }
+  ],
+  "decision": "OBSERVED_TRANSPORT_IMPROVEMENT_IN_THIS_PILOT",
+  "scope": "Exploratory transport comparison; no equilibrium qualification."
+}

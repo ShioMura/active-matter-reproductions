@@ -1,0 +1,47 @@
+{
+  "L": 20,
+  "N": 200,
+  "temperature": 0.4,
+  "epsilon": 1.0,
+  "sweeps": 10000,
+  "record_every": 10,
+  "snapshot_sweeps": [
+    0,
+    100,
+    1000,
+    5000,
+    7500,
+    10000
+  ],
+  "seeds": {
+    "random": [
+      442,
+      443,
+      444
+    ],
+    "stripe": [
+      445,
+      446,
+      447
+    ]
+  },
+  "analysis_windows": [
+    [
+      5001,
+      7500
+    ],
+    [
+      7501,
+      10000
+    ]
+  ],
+  "diagnostic_block_lengths_sweeps": [
+    250,
+    500
+  ],
+  "boundary": "periodic",
+  "sweep_definition": "L**2 uniform bond proposals, including no-change moves",
+  "status": "Initial-state sensitivity diagnostic; equilibrium not established",
+  "python_version": "3.14.2",
+  "numpy_version": "2.4.1"
+}

@@ -1,0 +1,488 @@
+[
+  {
+    "initial": "random",
+    "seed": 842,
+    "observable": "U",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": -361.5106666666667
+  },
+  {
+    "initial": "random",
+    "seed": 842,
+    "observable": "U",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": -361.22133333333335
+  },
+  {
+    "initial": "random",
+    "seed": 842,
+    "observable": "S_low",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": 16.525775581767462
+  },
+  {
+    "initial": "random",
+    "seed": 842,
+    "observable": "S_low",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": 16.562148477418486
+  },
+  {
+    "initial": "random",
+    "seed": 842,
+    "observable": "S_axis0_minus_S_axis1",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": -29.895930895321623
+  },
+  {
+    "initial": "random",
+    "seed": 842,
+    "observable": "S_axis0_minus_S_axis1",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": -30.36412811751101
+  },
+  {
+    "initial": "random",
+    "seed": 843,
+    "observable": "U",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": -361.0826666666667
+  },
+  {
+    "initial": "random",
+    "seed": 843,
+    "observable": "U",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": -361.76533333333333
+  },
+  {
+    "initial": "random",
+    "seed": 843,
+    "observable": "S_low",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": 16.483955400340147
+  },
+  {
+    "initial": "random",
+    "seed": 843,
+    "observable": "S_low",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": 16.640770413602613
+  },
+  {
+    "initial": "random",
+    "seed": 843,
+    "observable": "S_axis0_minus_S_axis1",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": 30.011248680693914
+  },
+  {
+    "initial": "random",
+    "seed": 843,
+    "observable": "S_axis0_minus_S_axis1",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": 31.124415597793888
+  },
+  {
+    "initial": "random",
+    "seed": 844,
+    "observable": "U",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": -361.392
+  },
+  {
+    "initial": "random",
+    "seed": 844,
+    "observable": "U",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": -361.0733333333333
+  },
+  {
+    "initial": "random",
+    "seed": 844,
+    "observable": "S_low",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": 16.832219068024138
+  },
+  {
+    "initial": "random",
+    "seed": 844,
+    "observable": "S_low",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": 16.51515231737135
+  },
+  {
+    "initial": "random",
+    "seed": 844,
+    "observable": "S_axis0_minus_S_axis1",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": 31.410801041766714
+  },
+  {
+    "initial": "random",
+    "seed": 844,
+    "observable": "S_axis0_minus_S_axis1",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": 29.842012485809683
+  },
+  {
+    "initial": "vertical",
+    "seed": 845,
+    "observable": "U",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": -361.94
+  },
+  {
+    "initial": "vertical",
+    "seed": 845,
+    "observable": "U",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": -360.6693333333333
+  },
+  {
+    "initial": "vertical",
+    "seed": 845,
+    "observable": "S_low",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": 16.772165539723748
+  },
+  {
+    "initial": "vertical",
+    "seed": 845,
+    "observable": "S_low",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": 16.316970317733453
+  },
+  {
+    "initial": "vertical",
+    "seed": 845,
+    "observable": "S_axis0_minus_S_axis1",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": -31.046752781960677
+  },
+  {
+    "initial": "vertical",
+    "seed": 845,
+    "observable": "S_axis0_minus_S_axis1",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": 25.0463628218005
+  },
+  {
+    "initial": "vertical",
+    "seed": 846,
+    "observable": "U",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": -361.608
+  },
+  {
+    "initial": "vertical",
+    "seed": 846,
+    "observable": "U",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": -361.8786666666667
+  },
+  {
+    "initial": "vertical",
+    "seed": 846,
+    "observable": "S_low",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": 16.926153740367123
+  },
+  {
+    "initial": "vertical",
+    "seed": 846,
+    "observable": "S_low",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": 16.674258545703797
+  },
+  {
+    "initial": "vertical",
+    "seed": 846,
+    "observable": "S_axis0_minus_S_axis1",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": -31.983000230934422
+  },
+  {
+    "initial": "vertical",
+    "seed": 846,
+    "observable": "S_axis0_minus_S_axis1",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": -31.11338884091872
+  },
+  {
+    "initial": "vertical",
+    "seed": 847,
+    "observable": "U",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": -362.132
+  },
+  {
+    "initial": "vertical",
+    "seed": 847,
+    "observable": "U",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": -361.55333333333334
+  },
+  {
+    "initial": "vertical",
+    "seed": 847,
+    "observable": "S_low",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": 17.072413668381042
+  },
+  {
+    "initial": "vertical",
+    "seed": 847,
+    "observable": "S_low",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": 16.603387318620943
+  },
+  {
+    "initial": "vertical",
+    "seed": 847,
+    "observable": "S_axis0_minus_S_axis1",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": -32.160985499155544
+  },
+  {
+    "initial": "vertical",
+    "seed": 847,
+    "observable": "S_axis0_minus_S_axis1",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": -30.659581035497755
+  },
+  {
+    "initial": "horizontal",
+    "seed": 848,
+    "observable": "U",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": -360.72133333333335
+  },
+  {
+    "initial": "horizontal",
+    "seed": 848,
+    "observable": "U",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": -362.00666666666666
+  },
+  {
+    "initial": "horizontal",
+    "seed": 848,
+    "observable": "S_low",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": 16.24980990800022
+  },
+  {
+    "initial": "horizontal",
+    "seed": 848,
+    "observable": "S_low",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": 16.794679598881146
+  },
+  {
+    "initial": "horizontal",
+    "seed": 848,
+    "observable": "S_axis0_minus_S_axis1",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": 29.553854639660234
+  },
+  {
+    "initial": "horizontal",
+    "seed": 848,
+    "observable": "S_axis0_minus_S_axis1",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": 31.57019546881053
+  },
+  {
+    "initial": "horizontal",
+    "seed": 849,
+    "observable": "U",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": -362.59066666666666
+  },
+  {
+    "initial": "horizontal",
+    "seed": 849,
+    "observable": "U",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": -362.572
+  },
+  {
+    "initial": "horizontal",
+    "seed": 849,
+    "observable": "S_low",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": 17.164683928083566
+  },
+  {
+    "initial": "horizontal",
+    "seed": 849,
+    "observable": "S_low",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": 17.20855679961087
+  },
+  {
+    "initial": "horizontal",
+    "seed": 849,
+    "observable": "S_axis0_minus_S_axis1",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": 32.53316110396179
+  },
+  {
+    "initial": "horizontal",
+    "seed": 849,
+    "observable": "S_axis0_minus_S_axis1",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": 32.430710100233746
+  },
+  {
+    "initial": "horizontal",
+    "seed": 850,
+    "observable": "U",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": -361.27866666666665
+  },
+  {
+    "initial": "horizontal",
+    "seed": 850,
+    "observable": "U",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": -361.24533333333335
+  },
+  {
+    "initial": "horizontal",
+    "seed": 850,
+    "observable": "S_low",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": 16.627977033191467
+  },
+  {
+    "initial": "horizontal",
+    "seed": 850,
+    "observable": "S_low",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": 16.749557231613007
+  },
+  {
+    "initial": "horizontal",
+    "seed": 850,
+    "observable": "S_axis0_minus_S_axis1",
+    "start": 5001,
+    "end": 12500,
+    "recorded_points": 750,
+    "mean": 30.82169133858209
+  },
+  {
+    "initial": "horizontal",
+    "seed": 850,
+    "observable": "S_axis0_minus_S_axis1",
+    "start": 12501,
+    "end": 20000,
+    "recorded_points": 750,
+    "mean": 30.960560104547817
+  }
+]

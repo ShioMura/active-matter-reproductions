@@ -1,0 +1,36 @@
+{
+  "L": 20,
+  "N": 200,
+  "epsilon": 1.0,
+  "temperatures": [
+    0.4,
+    0.45,
+    0.5,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "cycles": 2000,
+  "runs": [
+    [
+      "random",
+      1242
+    ],
+    [
+      "vertical",
+      1243
+    ],
+    [
+      "horizontal",
+      1244
+    ]
+  ],
+  "rng_streams": {
+    "initialization": 0,
+    "updates": 1
+  },
+  "snapshot_interval": 100,
+  "energy_check_interval": 100,
+  "scope": "Transport pilot; all cycles include the initial transient.",
+  "stopping": "Stop at the fixed budget; no automatic tuning or extension."
+}

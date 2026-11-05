@@ -1,0 +1,246 @@
+{
+  "config": {
+    "task": "PT_ROTATION_4X4_JOINT_VALIDATION_V1",
+    "L": 4,
+    "N": 8,
+    "epsilon": 1.0,
+    "temperatures": [
+      0.4,
+      0.5,
+      0.7,
+      1.0
+    ],
+    "excluded_cycles": 500,
+    "measurement_cycles": 5000,
+    "methods": [
+      "pt",
+      "pt_rotation"
+    ],
+    "seeds": {
+      "random": [
+        1642,
+        1643,
+        1644
+      ],
+      "stripe": [
+        1645,
+        1646,
+        1647
+      ]
+    },
+    "joint_observables": [
+      "U",
+      "S_low",
+      "D"
+    ],
+    "joint_tv_tolerance": 0.05,
+    "joint_key_decimals": 10,
+    "rotation": "Independent uniform k in {0,1,2,3} per slot after each PT cycle",
+    "rng_streams": {
+      "initialization": 0,
+      "updates": 1,
+      "rotation": 2
+    },
+    "stopping": "Fixed budget; no automatic extension or threshold changes"
+  },
+  "runs": [
+    {
+      "method": "pt",
+      "initial": "random",
+      "seed": 1642,
+      "joint_tv": 0.05183137040781158,
+      "within_tolerance": false,
+      "observable_means": [
+        -11.0544,
+        0.8288000000000002,
+        0.11175
+      ],
+      "within_slot_proposals": 352000,
+      "exchange_attempts": 16500,
+      "rotation_calls": 0,
+      "elapsed_seconds": 1.2883494999841787
+    },
+    {
+      "method": "pt_rotation",
+      "initial": "random",
+      "seed": 1642,
+      "joint_tv": 0.024169022750969188,
+      "within_tolerance": true,
+      "observable_means": [
+        -10.9928,
+        0.8189125,
+        0.002074999999999998
+      ],
+      "within_slot_proposals": 352000,
+      "exchange_attempts": 16500,
+      "rotation_calls": 22000,
+      "elapsed_seconds": 1.4026980999624357
+    },
+    {
+      "method": "pt",
+      "initial": "random",
+      "seed": 1643,
+      "joint_tv": 0.06937010224729832,
+      "within_tolerance": false,
+      "observable_means": [
+        -10.9534,
+        0.8099875000000001,
+        -0.17347500000000002
+      ],
+      "within_slot_proposals": 352000,
+      "exchange_attempts": 16500,
+      "rotation_calls": 0,
+      "elapsed_seconds": 1.2575385000091046
+    },
+    {
+      "method": "pt_rotation",
+      "initial": "random",
+      "seed": 1643,
+      "joint_tv": 0.02687931221486567,
+      "within_tolerance": true,
+      "observable_means": [
+        -11.0384,
+        0.8254875,
+        0.014775000000000003
+      ],
+      "within_slot_proposals": 352000,
+      "exchange_attempts": 16500,
+      "rotation_calls": 22000,
+      "elapsed_seconds": 1.5921324000228196
+    },
+    {
+      "method": "pt",
+      "initial": "random",
+      "seed": 1644,
+      "joint_tv": 0.04872912225909963,
+      "within_tolerance": true,
+      "observable_means": [
+        -11.0574,
+        0.8303125,
+        -0.101575
+      ],
+      "within_slot_proposals": 352000,
+      "exchange_attempts": 16500,
+      "rotation_calls": 0,
+      "elapsed_seconds": 1.5479171000188217
+    },
+    {
+      "method": "pt_rotation",
+      "initial": "random",
+      "seed": 1644,
+      "joint_tv": 0.030106394049886354,
+      "within_tolerance": true,
+      "observable_means": [
+        -11.0016,
+        0.8194250000000002,
+        -0.01205
+      ],
+      "within_slot_proposals": 352000,
+      "exchange_attempts": 16500,
+      "rotation_calls": 22000,
+      "elapsed_seconds": 1.4532060000346974
+    },
+    {
+      "method": "pt",
+      "initial": "stripe",
+      "seed": 1645,
+      "joint_tv": 0.0468315131443592,
+      "within_tolerance": true,
+      "observable_means": [
+        -11.1056,
+        0.83815,
+        0.07565
+      ],
+      "within_slot_proposals": 352000,
+      "exchange_attempts": 16500,
+      "rotation_calls": 0,
+      "elapsed_seconds": 1.3114409999689087
+    },
+    {
+      "method": "pt_rotation",
+      "initial": "stripe",
+      "seed": 1645,
+      "joint_tv": 0.029459353345427708,
+      "within_tolerance": true,
+      "observable_means": [
+        -11.0254,
+        0.824575,
+        0.015
+      ],
+      "within_slot_proposals": 352000,
+      "exchange_attempts": 16500,
+      "rotation_calls": 22000,
+      "elapsed_seconds": 1.332353699952364
+    },
+    {
+      "method": "pt",
+      "initial": "stripe",
+      "seed": 1646,
+      "joint_tv": 0.037579561204130287,
+      "within_tolerance": true,
+      "observable_means": [
+        -11.0202,
+        0.8230250000000002,
+        -0.06335000000000002
+      ],
+      "within_slot_proposals": 352000,
+      "exchange_attempts": 16500,
+      "rotation_calls": 0,
+      "elapsed_seconds": 1.2298950999975204
+    },
+    {
+      "method": "pt_rotation",
+      "initial": "stripe",
+      "seed": 1646,
+      "joint_tv": 0.03252265837922306,
+      "within_tolerance": true,
+      "observable_means": [
+        -11.0592,
+        0.8305625,
+        0.029625
+      ],
+      "within_slot_proposals": 352000,
+      "exchange_attempts": 16500,
+      "rotation_calls": 22000,
+      "elapsed_seconds": 1.3754004999645986
+    },
+    {
+      "method": "pt",
+      "initial": "stripe",
+      "seed": 1647,
+      "joint_tv": 0.028029965318454073,
+      "within_tolerance": true,
+      "observable_means": [
+        -11.0246,
+        0.8240125000000001,
+        0.027525000000000004
+      ],
+      "within_slot_proposals": 352000,
+      "exchange_attempts": 16500,
+      "rotation_calls": 0,
+      "elapsed_seconds": 1.2317760000005364
+    },
+    {
+      "method": "pt_rotation",
+      "initial": "stripe",
+      "seed": 1647,
+      "joint_tv": 0.04219556501244324,
+      "within_tolerance": true,
+      "observable_means": [
+        -10.961,
+        0.8123625,
+        0.006425000000000005
+      ],
+      "within_slot_proposals": 352000,
+      "exchange_attempts": 16500,
+      "rotation_calls": 22000,
+      "elapsed_seconds": 1.3318773999926634
+    }
+  ],
+  "method_screens": {
+    "pt": false,
+    "pt_rotation": true
+  },
+  "total_seconds": 16.45446090004407,
+  "scope": "Fixed-budget 4x4 joint-distribution accuracy screen. No efficiency superiority or 20x20 reference qualification."
+}

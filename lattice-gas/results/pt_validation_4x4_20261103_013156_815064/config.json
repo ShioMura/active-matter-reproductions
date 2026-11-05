@@ -1,0 +1,51 @@
+{
+  "L": 4,
+  "N": 8,
+  "epsilon": 1.0,
+  "target_temperature": 0.4,
+  "temperatures": [
+    0.4,
+    0.5,
+    0.7,
+    1.0
+  ],
+  "pt_burn_in": 500,
+  "pt_measurement": 5000,
+  "baseline_burn_in": 2000,
+  "baseline_measurement": 20000,
+  "runs": [
+    [
+      "random",
+      1142
+    ],
+    [
+      "random",
+      1143
+    ],
+    [
+      "random",
+      1144
+    ],
+    [
+      "stripe",
+      1145
+    ],
+    [
+      "stripe",
+      1146
+    ],
+    [
+      "stripe",
+      1147
+    ]
+  ],
+  "marginal_tv_tolerance": 0.05,
+  "rng_streams": {
+    "shared_target_initialization": 0,
+    "pt_updates": 1,
+    "baseline_updates": 2,
+    "other_pt_initializations": 3
+  },
+  "timing_scope": "Updates, observations, and checks; excludes file saving.",
+  "stopping_rule": "Run the fixed budget once; no automatic extension."
+}

@@ -1,0 +1,21 @@
+{
+  "L": 20,
+  "temperature": 0.4,
+  "epsilon": 1.0,
+  "mu": -2.0,
+  "sweeps": 2000,
+  "seeds": [
+    242,
+    243,
+    244
+  ],
+  "initial_particles": 200,
+  "snapshot_sweeps": [
+    0,
+    10,
+    50,
+    200,
+    1000,
+    2000
+  ]
+}

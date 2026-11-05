@@ -1,0 +1,47 @@
+{
+  "model": "H = -epsilon * occupied_bonds - mu * N",
+  "boundary": "periodic",
+  "update": "random-site Metropolis insertion/deletion",
+  "sweep": "L**2 attempts with replacement",
+  "python_version": "3.14.2",
+  "numpy_version": "2.4.1",
+  "warm_config": {
+    "L": 20,
+    "temperature": 1.0,
+    "epsilon": 1.0,
+    "mu": -2.0,
+    "sweeps": 2000,
+    "seeds": {
+      "empty": [
+        42,
+        43,
+        44
+      ],
+      "full": [
+        45,
+        46,
+        47
+      ]
+    }
+  },
+  "cold_config": {
+    "L": 20,
+    "temperature": 0.4,
+    "epsilon": 1.0,
+    "mu": -2.0,
+    "sweeps": 2000,
+    "seeds": {
+      "empty": [
+        142,
+        143,
+        144
+      ],
+      "full": [
+        145,
+        146,
+        147
+      ]
+    }
+  },
+  "status": "Exploratory trajectories; low-temperature mixing not established"
+}

@@ -1,0 +1,91 @@
+{
+  "status": "PROVISIONAL_OBSERVABLE_MEAN_REFERENCE",
+  "reference_rows": [
+    {
+      "observable": "U",
+      "mean": -361.738375,
+      "between_chain_sem": 0.04800963806593767,
+      "combined_block_sem": 0.04397092519665005,
+      "chain_mean_min": -361.997875,
+      "chain_mean_max": -361.551125,
+      "n_chains": 9
+    },
+    {
+      "observable": "S_low",
+      "mean": 16.79481292652055,
+      "between_chain_sem": 0.026793087759996656,
+      "combined_block_sem": 0.02318738737629712,
+      "chain_mean_min": 16.69051270361182,
+      "chain_mean_max": 16.929499537746267,
+      "n_chains": 9
+    },
+    {
+      "observable": "abs_D",
+      "mean": 31.22852824644966,
+      "between_chain_sem": 0.09794203980845852,
+      "combined_block_sem": 0.07896153573080092,
+      "chain_mean_min": 30.846624514402226,
+      "chain_mean_max": 31.690042982345314,
+      "n_chains": 9
+    }
+  ],
+  "mean_screens": {
+    "U": {
+      "measured": {
+        "chain_range": 0.44675000000000864,
+        "window_change": 0.23025000000001228,
+        "sem": 0.16872403308985134
+      },
+      "limits": {
+        "chain_range": 1.0,
+        "window_change": 1.0,
+        "sem": 0.25
+      },
+      "checks": {
+        "chain_range": true,
+        "window_change": true,
+        "sem": true
+      },
+      "all_pass": true
+    },
+    "S_low": {
+      "measured": {
+        "chain_range": 0.23898683413444743,
+        "window_change": 0.18830585353179075,
+        "sem": 0.09408076176351839
+      },
+      "limits": {
+        "chain_range": 0.5,
+        "window_change": 0.5,
+        "sem": 0.125
+      },
+      "checks": {
+        "chain_range": true,
+        "window_change": true,
+        "sem": true
+      },
+      "all_pass": true
+    },
+    "abs_D": {
+      "measured": {
+        "chain_range": 0.8434184679430885,
+        "window_change": 0.894743418799326,
+        "sem": 0.3105800137908192
+      },
+      "limits": {
+        "chain_range": 2.0,
+        "window_change": 2.0,
+        "sem": 0.5
+      },
+      "checks": {
+        "chain_range": true,
+        "window_change": true,
+        "sem": true
+      },
+      "all_pass": true
+    }
+  },
+  "full_configuration_equilibrium_qualified": false,
+  "uncertainty_scope": "Diagnostic statistical uncertainty; common equilibrium bias is not quantified.",
+  "source_assessment": "reference_assessment.json"
+}

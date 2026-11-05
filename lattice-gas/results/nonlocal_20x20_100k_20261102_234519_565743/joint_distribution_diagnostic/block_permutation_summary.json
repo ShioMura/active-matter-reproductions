@@ -1,0 +1,75 @@
+{
+  "config": {
+    "block_sweeps": [
+      1000,
+      2000,
+      4000
+    ],
+    "repetitions": 999,
+    "seed": 942,
+    "record_every": 10,
+    "measurement_interval": [
+      20001,
+      100000
+    ],
+    "window_split": 60000,
+    "statistic": "Maximum within-chain window TV across all nine chains",
+    "status": "EXPLORATORY_BLOCK_PERMUTATION"
+  },
+  "labels": [
+    "horizontal_848",
+    "horizontal_849",
+    "horizontal_850",
+    "random_842",
+    "random_843",
+    "random_844",
+    "vertical_845",
+    "vertical_846",
+    "vertical_847"
+  ],
+  "observed_window_tv": [
+    0.14425000000000002,
+    0.13874999999999998,
+    0.1505,
+    0.131,
+    0.13574999999999998,
+    0.1365,
+    0.14425000000000002,
+    0.12625,
+    0.15025
+  ],
+  "results": [
+    {
+      "block_sweeps": 1000,
+      "blocks_per_chain": 80,
+      "observed_max_window_tv": 0.1505,
+      "permuted_max_tv_median": 0.15125,
+      "permuted_max_tv_q95": 0.1655,
+      "upper_tail_fraction": 0.559
+    },
+    {
+      "block_sweeps": 2000,
+      "blocks_per_chain": 40,
+      "observed_max_window_tv": 0.1505,
+      "permuted_max_tv_median": 0.15125,
+      "permuted_max_tv_q95": 0.166,
+      "upper_tail_fraction": 0.537
+    },
+    {
+      "block_sweeps": 4000,
+      "blocks_per_chain": 20,
+      "observed_max_window_tv": 0.1505,
+      "permuted_max_tv_median": 0.1515,
+      "permuted_max_tv_q95": 0.16777499999999998,
+      "upper_tail_fraction": 0.581
+    }
+  ],
+  "limitations": [
+    "Approximate block exchangeability is not established.",
+    "Dependence between blocks may remain.",
+    "Tail fractions are diagnostic, not certified p-values.",
+    "The 95th percentile is descriptive, not a qualification threshold.",
+    "This assesses temporal differences, not between-chain equality.",
+    "Shared equilibrium bias and unvisited states cannot be excluded."
+  ]
+}

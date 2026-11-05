@@ -1,0 +1,80 @@
+{
+  "status": "FIXED_BUDGET_EXECUTION_COMPLETE_ASSESSMENT_PENDING",
+  "protocol_sha256": "0ac0b1bbd78e4188a936ff8b1d8d49c9500916e9a19286e6150f751a2d7ae3ac",
+  "budget": {
+    "runs": 9,
+    "cycles_per_run": 50000,
+    "within_slot_proposals": 1440000000,
+    "swap_attempts": 3150000,
+    "rotation_calls_including_identity": 3600000,
+    "segments": 90,
+    "post_exclusion_snapshots_per_run": 4000
+  },
+  "runs": [
+    {
+      "initial": "random",
+      "seed": 1742,
+      "cycles": 50000,
+      "committed_segment_seconds": 542.7809816999943,
+      "last_checkpoint_sha256": "efb919fb7bb56eebe1ef3a5f42085d0f14cd851178bcc18e9a41948e06fc7efd"
+    },
+    {
+      "initial": "random",
+      "seed": 1743,
+      "cycles": 50000,
+      "committed_segment_seconds": 679.2530459999107,
+      "last_checkpoint_sha256": "306900e621ed61a5c24c75b8fe39f296cb9d5a3906b022c05448eec049ae3261"
+    },
+    {
+      "initial": "random",
+      "seed": 1744,
+      "cycles": 50000,
+      "committed_segment_seconds": 568.3840458000195,
+      "last_checkpoint_sha256": "c355eceed6ef9d045ebbcad0f43af12c3091196ba17252df55aed5be09494113"
+    },
+    {
+      "initial": "stripe",
+      "seed": 1745,
+      "cycles": 50000,
+      "committed_segment_seconds": 568.6668446999392,
+      "last_checkpoint_sha256": "3c41e826e0b710b4123110e688d6049656d13c16dc7035a58b021ff403ea1e92"
+    },
+    {
+      "initial": "stripe",
+      "seed": 1746,
+      "cycles": 50000,
+      "committed_segment_seconds": 567.2721925999504,
+      "last_checkpoint_sha256": "7652319302004239366a72844406343ec1a619aa759a891e9049535c3f23d35c"
+    },
+    {
+      "initial": "stripe",
+      "seed": 1747,
+      "cycles": 50000,
+      "committed_segment_seconds": 577.0672352000256,
+      "last_checkpoint_sha256": "78057967cb62888079355050cb098bb058097e228b13b93fff94678b0a332748"
+    },
+    {
+      "initial": "droplet",
+      "seed": 1748,
+      "cycles": 50000,
+      "committed_segment_seconds": 566.4795010000817,
+      "last_checkpoint_sha256": "761b68b60145e1a4228cf4db3dc5bca2d5235ef0c4fa7d69a36e11ba68e90055"
+    },
+    {
+      "initial": "droplet",
+      "seed": 1749,
+      "cycles": 50000,
+      "committed_segment_seconds": 580.0173718000297,
+      "last_checkpoint_sha256": "e896b49ca2ac3bd438d2d23da1406be6e84ec6fba08b410e72dfd8e4e81b39cb"
+    },
+    {
+      "initial": "droplet",
+      "seed": 1750,
+      "cycles": 50000,
+      "committed_segment_seconds": 556.8123080000514,
+      "last_checkpoint_sha256": "2c37cd40c55ae4de64b82ad84937934f807e707e1e8eb566c7dfbad633b562b1"
+    }
+  ],
+  "scope": "Recorded bookkeeping checks passed. Statistical assessment pending; no automatic continuation or equilibrium qualification.",
+  "timing_scope": "Committed segment compute time; excludes discarded interrupted work, most IO, and validation overhead."
+}

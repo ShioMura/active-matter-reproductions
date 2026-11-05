@@ -1,0 +1,9 @@
+{
+  "README.md": "26210c48580af62cc5a87d1b3f1ee0ff4971021e82c6376f44705bd3d45287b6",
+  "implementation_checks.json": "a404918608b2dc8cb7a4a0579c94d48f6afe3b8ad9a072a0d4a27afc5a9f14b8",
+  "protocol_preview.json": "740aff2f2520e426e322a79a72b6e1ad235adc37730fd36ba80c4d1f142bbcda",
+  "pt_rotation_dependencies.py": "e28756f4811cce9da2d4997da34f48087b3a7e01c1c548e119c54fe1144c86e7",
+  "pt_rotation_runner.py": "2f281d4f012aef28a0ffecbaf286d974d987cc4acddb45a9e19655fbef8fe958",
+  "run_pt_rotation_20x20.ipynb": "e9aaad6f7b81d1a6985d4b7df3845ffcc0c7d9d7863d42e1516334f03b65dc71",
+  "test_runner.py": "491f9c5557530783f58fac2b3b04e32bfb0f5f87aba0264e03b9b17fae2a7010"
+}
