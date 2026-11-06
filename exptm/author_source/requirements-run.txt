@@ -1,0 +1,6 @@
+torch==2.5.1
+numpy==2.3.5
+einops==0.8.1
+PyYAML
+matplotlib
+ipykernel
