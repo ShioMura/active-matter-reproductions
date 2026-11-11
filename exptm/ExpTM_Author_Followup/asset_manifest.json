@@ -1,0 +1,25 @@
+{
+  "commit": "bc55961331ff94a48e51974d9f537319ace96e9c",
+  "assets": [
+    {
+      "path": "GC_Lattice_gas/data/HighMuT7.npy",
+      "sha": "f714ad0c6aacf37738f5c9bd06916268f9d09e22",
+      "size": 32000128
+    },
+    {
+      "path": "GC_Lattice_gas/data/LowMuT7.npy",
+      "sha": "ebc6756450e9cb09da151cf9c7f5fced1547e520",
+      "size": 32000128
+    },
+    {
+      "path": "GC_Lattice_gas/manuscript_figure/density_matrix.npy",
+      "sha": "877bad6149b236514da39f2b48502c8d9f81e5f7",
+      "size": 5128
+    },
+    {
+      "path": "GC_Lattice_gas/manuscript_figure/org_density_matrix.npy",
+      "sha": "67019db215f19597c4b63b28aada22ba477d6f58",
+      "size": 5536
+    }
+  ]
+}

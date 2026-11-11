@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/tiwarylab/ExpTM",
+  "commit": "bc55961331ff94a48e51974d9f537319ace96e9c",
+  "sha256": {
+    "author_training_source/tm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "author_training_source/tm/architectures/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "author_training_source/tm/architectures/unet_2d_mid_attn.py": "87f662a0474f4beb53d125afc7222b11bb30c9f2840f3e273215f76b3bf8c63c",
+    "author_training_source/tm/core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "author_training_source/tm/core/backbone.py": "e414f5a53c456c1ffb68d910cced0cd49627c2853fe7ff19d26ebd1e2eb040d2",
+    "author_training_source/tm/core/diffusion_model.py": "849ecf96d9b2e476bffa65e31a56028db4ab82f2db45a89cfc4aa1c1135f6dce",
+    "author_training_source/tm/core/diffusion_process.py": "fb4b3c55444d736cb4db3917d663b5a5bd16c27a9a3eaba408abe1a656ae434c",
+    "author_training_source/tm/core/loader.py": "3ca9e881b03ddbaea1bc1f0c61cdb61e4fa5a92bb347da0f944d84960b3b2e7a",
+    "author_training_source/tm/core/prior.py": "674a7427efc278ae007cafda823dcb2ebab1fe2070455d33f5968bc54b680abb",
+    "author_training_source/tm/core/utils.py": "d5e3f31598342c2aec6b673c786c996082602bd7ca8b645d8e47ac00163b6463",
+    "data/HighMuT7.npy": "f4ad83d9bf54fae9753bd3daba7aa861c1fdd25ad927e6a171cf429a1801660b",
+    "data/LowMuT7.npy": "05802d6a1ea829c19fae8a913501695a981f86a9fe6b3cf47712bbe52e88f4cd"
+  }
+}
