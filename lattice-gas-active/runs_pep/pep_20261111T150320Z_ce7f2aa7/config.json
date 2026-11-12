@@ -1,0 +1,28 @@
+{
+  "task": "PEP_IMPLEMENTATION_AND_FINITE_TIME_DEMO_V1",
+  "L": 20,
+  "density": 0.5,
+  "alphas": [
+    1.0,
+    0.05
+  ],
+  "seeds": [
+    2026111141,
+    2026111142
+  ],
+  "sweeps": 500,
+  "measure_every": 10,
+  "snapshot_sweeps": [
+    0,
+    100,
+    500
+  ],
+  "initial": "random",
+  "local_window": 5,
+  "sweep_definition": "N particle selections with replacement",
+  "question": "Do the specified PEP implementation checks pass, and what finite-time records result?",
+  "physical_success_threshold": null,
+  "stop": "Stop after the fixed demo; no parameter search, training, or phase-diagram scan.",
+  "stationarity_validated": false,
+  "training_data_qualified": false
+}

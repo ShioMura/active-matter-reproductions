@@ -1,0 +1,6 @@
+{
+  "status": "SAVED_DATA_CHECKS_PASSED",
+  "trajectories": 242,
+  "frames_recomputed": 12342,
+  "checks": "Conservation, occupation/orientation agreement, both heatmap observables recomputed, fixed-window means verified."
+}

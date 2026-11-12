@@ -1,0 +1,15 @@
+{
+  "parent_filename": "lattice_gas_mc(1).ipynb",
+  "parent_notebook_sha256": "ec8e2fd1d3e26619db82a6033bead133ea8586953e0331f3c865b567a6a578b4",
+  "reused_function_sha256": {
+    "count_boundary_bonds": "fd471f3159b5d84b7cc7765fd621007d43c49d67e9fadf5003881c42dad5da14",
+    "lowest_mode_structure": "d26be8bf002e972d92061d349791189a8300b6c9456297c254c228da87707028",
+    "periodic_cluster_observables": "adc5b8dfd54c014c92f10c066786f5ef30f498216a96c837f7520617bc9e93de"
+  },
+  "model_reference": "Soto and Golestanian, PRE 89, 012706 (2014), Section II",
+  "doi": "10.1103/PhysRevE.89.012706",
+  "reused": "Periodic geometry, fixed N, and three unmodified structural functions",
+  "new": "Particle orientations, PEP updates, state/checkpoint handling, local-density measure",
+  "removed_from_active_dynamics": "Attraction energy, Metropolis acceptance, chemical potential, PT",
+  "previous_reference_status": "NOT_READY_PRECISION_SCREEN_NOT_MET; unchanged"
+}

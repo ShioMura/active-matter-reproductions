@@ -1,0 +1,12 @@
+{
+  "protocol_sha256": "722498bacc278c07f4e9df04baa59fc0f13a30e680075ba079a9c2116a028621",
+  "source_sha256": {
+    "map11.py": "f68f3872857b849da2b0455ec33315536b0d6d226d90c7bdd1819ac633b54c5f",
+    "pep_core.py": "e97b2b2763692e8a67b3453f9dbd3215e1aa1a45eca2b6b13ae656752a48294b"
+  },
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.8",
+  "model": "Soto and Golestanian PRE 89,012706 (2014), Section II; PEP, no attraction",
+  "parent_decisions": "Earlier equilibrium NOT READY and Track B STOP remain unchanged."
+}

@@ -1,0 +1,11 @@
+{
+  "periodic_move_and_tumble_before_hop": true,
+  "exclusion_and_blocked_tumbling": true,
+  "ballistic_and_empty_limits": true,
+  "independent_reference_2000_events": true,
+  "exact_SEP_36_states_and_structure_reference": true,
+  "analytic_orientation_kernel": true,
+  "periodic_structure_known_answers": true,
+  "state_and_rng_replay": true,
+  "status": "IMPLEMENTATION_CHECKS_PASSED"
+}

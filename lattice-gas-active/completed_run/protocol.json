@@ -1,0 +1,57 @@
+{
+  "task": "PEP_FINITE_TIME_MAP_11_V1",
+  "L": 20,
+  "densities": [
+    0.1,
+    0.18,
+    0.26,
+    0.33999999999999997,
+    0.42000000000000004,
+    0.5,
+    0.58,
+    0.66,
+    0.74,
+    0.82,
+    0.9
+  ],
+  "persistence_A": [
+    1.0,
+    1.3492828476735632,
+    1.8205642030260802,
+    2.4564560522315806,
+    3.314454017339987,
+    4.47213595499958,
+    6.034176336545162,
+    8.141810630738087,
+    10.985605433061178,
+    14.822688982138951,
+    20.0
+  ],
+  "seeds": [
+    2026111141,
+    2026111142
+  ],
+  "sweeps": 500,
+  "measure_every": 10,
+  "summary_sweeps": [
+    410,
+    420,
+    430,
+    440,
+    450,
+    460,
+    470,
+    480,
+    490,
+    500
+  ],
+  "local_window": 5,
+  "initial": "random",
+  "rng": "SeedSequence([seed, density_index, stream]); stream 0=init, 1=updates; paired across A",
+  "question": "At a fixed observation time, is stronger persistence associated with larger density inhomogeneity across densities?",
+  "descriptive_comparison": "For each density report A=20 minus A=1 for each seed and both observables; positive in both seeds is descriptive agreement only.",
+  "technical_success": "242 complete conserved trajectories; finite arrays; all original implementation checks pass; saved snapshots reproduce measurements.",
+  "stop": "Stop on check failure or after 242 trajectories. No seed selection, extension, tuning, training, or stationary-phase claim.",
+  "stationarity_validated": false,
+  "training_data_qualified": false
+}

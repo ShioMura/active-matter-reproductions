@@ -1,0 +1,14 @@
+{
+  "task": "PEP_FINITE_TIME_MAP_11_V1",
+  "execution": "COMPLETED",
+  "technical_validation": "SAVED_DATA_CHECKS_PASSED",
+  "endpoint_descriptive_agreement_density_count": {
+    "S_low": 11,
+    "local_density_variance": 11
+  },
+  "density_count": 11,
+  "interpretation": "Endpoint contrasts are descriptive finite-time comparisons; retain mixed outcomes and full seed maps.",
+  "stationarity_validated": false,
+  "training_data_qualified": false,
+  "decision": "STOP_FIXED_GRID_COMPLETE"
+}

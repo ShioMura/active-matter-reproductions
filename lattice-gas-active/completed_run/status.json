@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "completed_trajectories": 242,
+  "attempts": 24200000,
+  "seconds": 436.8313762449998,
+  "stationarity_validated": false,
+  "training_data_qualified": false
+}

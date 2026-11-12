@@ -1,0 +1,189 @@
+[
+  {
+    "density": 0.1,
+    "S_low": {
+      "A20_minus_A1_by_seed": [
+        0.26310393785654096,
+        0.07693244481984349
+      ],
+      "positive_in_both_seeds": true
+    },
+    "local_density_variance": {
+      "A20_minus_A1_by_seed": [
+        0.0036408000000000005,
+        0.002845600000000001
+      ],
+      "positive_in_both_seeds": true
+    }
+  },
+  {
+    "density": 0.18,
+    "S_low": {
+      "A20_minus_A1_by_seed": [
+        1.4242317135809452,
+        0.487821659961174
+      ],
+      "positive_in_both_seeds": true
+    },
+    "local_density_variance": {
+      "A20_minus_A1_by_seed": [
+        0.0186144,
+        0.0101528
+      ],
+      "positive_in_both_seeds": true
+    }
+  },
+  {
+    "density": 0.26,
+    "S_low": {
+      "A20_minus_A1_by_seed": [
+        1.5324747112433177,
+        1.4129221340789704
+      ],
+      "positive_in_both_seeds": true
+    },
+    "local_density_variance": {
+      "A20_minus_A1_by_seed": [
+        0.023208,
+        0.027062399999999997
+      ],
+      "positive_in_both_seeds": true
+    }
+  },
+  {
+    "density": 0.33999999999999997,
+    "S_low": {
+      "A20_minus_A1_by_seed": [
+        0.6635031862840649,
+        0.4647748441170999
+      ],
+      "positive_in_both_seeds": true
+    },
+    "local_density_variance": {
+      "A20_minus_A1_by_seed": [
+        0.0174248,
+        0.0208976
+      ],
+      "positive_in_both_seeds": true
+    }
+  },
+  {
+    "density": 0.42000000000000004,
+    "S_low": {
+      "A20_minus_A1_by_seed": [
+        1.4761921149554045,
+        2.5356929621457063
+      ],
+      "positive_in_both_seeds": true
+    },
+    "local_density_variance": {
+      "A20_minus_A1_by_seed": [
+        0.02995360000000001,
+        0.0380808
+      ],
+      "positive_in_both_seeds": true
+    }
+  },
+  {
+    "density": 0.5,
+    "S_low": {
+      "A20_minus_A1_by_seed": [
+        2.511782121152036,
+        0.8885602338817329
+      ],
+      "positive_in_both_seeds": true
+    },
+    "local_density_variance": {
+      "A20_minus_A1_by_seed": [
+        0.0495184,
+        0.020787200000000002
+      ],
+      "positive_in_both_seeds": true
+    }
+  },
+  {
+    "density": 0.58,
+    "S_low": {
+      "A20_minus_A1_by_seed": [
+        1.1339923759499664,
+        2.2598765703188506
+      ],
+      "positive_in_both_seeds": true
+    },
+    "local_density_variance": {
+      "A20_minus_A1_by_seed": [
+        0.031129599999999997,
+        0.0391896
+      ],
+      "positive_in_both_seeds": true
+    }
+  },
+  {
+    "density": 0.66,
+    "S_low": {
+      "A20_minus_A1_by_seed": [
+        0.016698137802809265,
+        0.6240110220202517
+      ],
+      "positive_in_both_seeds": true
+    },
+    "local_density_variance": {
+      "A20_minus_A1_by_seed": [
+        0.0170576,
+        0.017567200000000005
+      ],
+      "positive_in_both_seeds": true
+    }
+  },
+  {
+    "density": 0.74,
+    "S_low": {
+      "A20_minus_A1_by_seed": [
+        0.520535000311452,
+        0.22866668787514688
+      ],
+      "positive_in_both_seeds": true
+    },
+    "local_density_variance": {
+      "A20_minus_A1_by_seed": [
+        0.012829600000000004,
+        0.014428000000000002
+      ],
+      "positive_in_both_seeds": true
+    }
+  },
+  {
+    "density": 0.82,
+    "S_low": {
+      "A20_minus_A1_by_seed": [
+        0.8571663232319884,
+        0.3279501060916364
+      ],
+      "positive_in_both_seeds": true
+    },
+    "local_density_variance": {
+      "A20_minus_A1_by_seed": [
+        0.012041600000000001,
+        0.006651999999999997
+      ],
+      "positive_in_both_seeds": true
+    }
+  },
+  {
+    "density": 0.9,
+    "S_low": {
+      "A20_minus_A1_by_seed": [
+        0.09182234371836366,
+        0.3925394434174611
+      ],
+      "positive_in_both_seeds": true
+    },
+    "local_density_variance": {
+      "A20_minus_A1_by_seed": [
+        0.0023095999999999998,
+        0.0096704
+      ],
+      "positive_in_both_seeds": true
+    }
+  }
+]
